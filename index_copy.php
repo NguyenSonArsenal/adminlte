@@ -10,18 +10,10 @@
     <?php include 'include/inc_sidebar.php' ?>
 
     <div class="content-wrapper" style="min-height: 1036px;">
-        <section class="content-header">
-            <h1 class="pull-left">Danh sách chiến dịch</h1>
-
-            <div class="clearfix"></div>
-        </section>
-
-
         <section class="content">
             <div class="row">
-                <!-- /.col -->
-                <div class="col-md-12">
-                    <div class="box box-primary">
+                <div class="col-md-offset-1 col-md-10">
+                    <div class="box box-info">
                         <div class="box-header with-border">
                             <h3 class="box-title">...</h3>
                         </div>
@@ -124,15 +116,10 @@
                             </div>
                             <!-- /.box-footer -->
                         </form>
-                        <!-- /.box-body -->
                     </div>
-                    <!-- /. box -->
                 </div>
-                <!-- /.col -->
             </div>
         </section>
-
-
         <!-- Modal -->
         <div id="myModal" class="modal fade" role="dialog">
             <div class="modal-dialog" style="width: 400px;">
