@@ -2,6 +2,7 @@
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
+    <link rel="stylesheet" href="./dist/css/index.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -44,16 +45,24 @@
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Khách hàng mục tiêu:</label>
                                     <div class="col-md-8">
-                                        <button type="submit" class="btn btn-info">Thêm mới</button>
+                                        <button type="submit" class="btn btn-info">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            Thêm mới
+                                        </button>
                                         <span style="padding:0px 10px;">hoặc</span>
-                                        <button type="submit" class="btn btn-info">Chọn trong lịch sử</button>
+                                        <button type="submit" class="btn btn-info">
+                                            <i class="fa fa-check" aria-hidden="true"></i>
+                                            Chọn trong lịch sử
+                                        </button>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="inputPassword3" class="col-md-3 control-label">Sản phẩm:</label>
                                     <div class="col-md-8">
                                         <div class="input-group-btn">
-                                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Thêm sản phẩm
+                                            <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                                Thêm sản phẩm
                                                 <span class="fa fa-caret-down"></span></button>
                                             <ul class="dropdown-menu">
                                                 <li>
@@ -113,14 +122,23 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="col-md-offset-3 col-md-8">
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Thêm kênh</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_add_product">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                            Thêm kênh
+                                        </button>
                                     </div>
                                 </div>
                             </div>
                             <!-- /.box-body -->
                             <div class="box-footer">
-                                <button type="submit" class="btn btn-default pull-right" style="margin-left: 10px">Tiếp tục</button>
-                                <button type="submit" class="btn btn-info pull-right">Lưu và kết thúc</button>
+                                <button type="submit" class="btn btn-default pull-right" style="margin-left: 10px">
+                                    <i class="fa fa-repeat" aria-hidden="true"></i>
+                                    Tiếp tục
+                                </button>
+                                <button type="submit" class="btn btn-info pull-right">
+                                    <i class="fa fa-save" aria-hidden="true"></i>
+                                    Lưu và kết thúc
+                                </button>
                             </div>
                             <!-- /.box-footer -->
                         </form>
@@ -134,7 +152,7 @@
 
 
         <!-- Modal -->
-        <div id="myModal" class="modal fade" role="dialog">
+        <div id="modal_add_product" class="modal fade" role="dialog">
             <div class="modal-dialog" style="width: 400px;">
                 <!-- Modal content-->
                 <div class="modal-content">
@@ -163,6 +181,7 @@
                 </div>
             </div>
         </div>
+
         <!-- Them chien dich -->
         <div id="modalChienDich" class="modal fade" role="dialog">
             <div class="modal-dialog">

@@ -8,6 +8,8 @@
             <li><a href="./chiendich.php"><i class="fa fa-book"></i> <span>Chiến dịch</span></a></li>
             <li><a href="./landing_page.php"><i class="fa fa-book"></i> <span>Landing page</span></a></li>
             <li><a href="./product.php"><i class="fa fa-book"></i> <span>Sản phẩm</span></a></li>
+            <li><a href="./channel.php"><i class="fa fa-book"></i> <span>Kênh</span></a></li>
+            <li><a href="./customer_goal.php"><i class="fa fa-book"></i> <span>Khách hàng mục tiêu</span></a></li>
         </ul>
     </section>
     <!-- /.sidebar -->

@@ -17,10 +17,11 @@
 /*Modal*/
 .wrapper #modal_add_product .modal-dialog .modal-content .modal-body .row .col-md-4 {
   text-align: center;
+  padding-top: 50px;
 }
 .wrapper #modal_add_product .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image {
   border: 1px dashed #212121;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 200px;
 }
 .wrapper #modal_add_product .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image .icon-backup {

@@ -13,9 +13,11 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <section class="content-header">
-            <h1 class="pull-left">Danh sach san pham</h1>
+            <h1 class="pull-left">Danh sách sản phẩm</h1>
             <button type="button" class="btn btn-warning pull-right"
-                  data-toggle="modal" data-target="#modal_add_product">THêm sản phẩm</button>
+                  data-toggle="modal" data-target="#modal_add_product">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                Thêm sản phẩm</button>
             <div class="clearfix"></div>
         </section>
       

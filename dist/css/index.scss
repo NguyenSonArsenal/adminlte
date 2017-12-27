@@ -1,0 +1,37 @@
+/*Modal*/
+.wrapper{
+    #modalChienDich{
+        .modal-dialog{
+            .modal-content{
+                .modal-body{
+                    .row {
+                        .col-md-4 {
+                            text-align: center;
+                            padding-top: 50px;
+                            .preview-image {
+                                border: 1px dashed #212121;
+                                margin-top: 10px;
+                                height: 200px;
+                                .icon-backup {
+                                    color: #9e9e9e;
+                                    &:hover {
+                                        color: #ff6f00;
+                                    }
+                                }
+                                .center {
+                                    color: #9e9e9e;
+                                }
+                                &:hover {
+                                    border: 1px solid #ff6f00;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                        .col-md-8 {
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

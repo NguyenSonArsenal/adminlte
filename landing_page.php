@@ -12,8 +12,11 @@
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <section class="content-header">
-            <h1 class="pull-left">Danh sach Landing page</h1>
-            <a href="" class="btn btn-warning pull-right">Thiết kế Landing page</a>
+            <h1 class="pull-left">Danh sách Landing page</h1>
+            <a href="" class="btn btn-warning pull-right">
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                Thiết kế Landing page
+            </a>
             <div class="clearfix"></div>
         </section>
 
