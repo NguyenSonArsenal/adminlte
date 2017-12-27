@@ -34,7 +34,10 @@
                                     <form action="" class="form-inline">
                                         <input type="text" class="form-control" placeholder="Search">
                                         <div class="form-group">
-                                            <button class="btn btn-success">Search</button>
+                                            <button class="btn btn-success">
+                                                <i class="fa fa-search-minus" aria-hidden="true"></i>
+                                                Search
+                                            </button>
                                         </div>
                                     </form>
                                 </div>
@@ -297,10 +300,10 @@
                                     <label class="radio-inline"><input type="radio" name="optradio">Khác</label>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="height60">
                                 <td class="pull-right"><label for="">Độ tuổi :</label></td>
                                 <td>
-                                    <input type="text" class="form-control" name="description">
+                                    <div type="text" class="form-control" id="slider-age" name="description">
                                 </td>
                             </tr>
                             <tr>
@@ -316,6 +319,7 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">
                         <i class="fa fa-remove" aria-hidden="true"></i>
+
                         Hủy
                     </button>
                     <button type="button" class="btn btn-success" data-dismiss="modal">
@@ -330,7 +334,10 @@
 
 </div>
 <!-- ./wrapper -->
+
 <?php include 'include/inc_js.php'?>
+
+<script src="dist/js/customer_goal.js"></script>
 
 </body>
 </html>

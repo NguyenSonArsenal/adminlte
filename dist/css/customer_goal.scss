@@ -55,6 +55,9 @@
                         position: relative;
                         bottom: 11px;
                         >tbody {
+                            .height60 {
+                                //height: 100px;
+                            }
                             >tr {
                                 height: 40px;
                                 font-weight: bold;
@@ -76,10 +79,24 @@
                                     }
                                 }
                             }
+
                         }
                     }
                 }
             }
         }
     }
+}
+
+
+.noUi-horizontal .noUi-handle {
+    top: -12px;
+}
+
+.noUi-tooltip {
+    padding: 2px;
+}
+
+.form-control {
+    width: 160%;
 }

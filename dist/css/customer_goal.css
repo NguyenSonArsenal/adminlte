@@ -50,4 +50,16 @@
   background-color: #fafafa;
 }
 
+.noUi-horizontal .noUi-handle {
+  top: -12px;
+}
+
+.noUi-tooltip {
+  padding: 2px;
+}
+
+.form-control {
+  width: 160%;
+}
+
 /*# sourceMappingURL=customer_goal.css.map */

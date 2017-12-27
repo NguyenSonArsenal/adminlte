@@ -15,8 +15,12 @@
 <!-- boostrap toggle -->
 <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
+<!-- noUiSlider -->
+<script src="bower_components/noUiSlider/nouislider.min.js"></script>
+
 <script src="dist/js/adminlte.min.js"></script>
 <script src="dist/js/demo.js"></script>
+
 <script>
     $(function () {
         $(".datepicker").datepicker();

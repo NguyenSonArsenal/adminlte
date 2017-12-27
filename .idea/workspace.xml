@@ -2,21 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0028a0-28be-4e74-a1ac-4431d33c99cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/advertising_template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/channel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/customer_goal.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/advertising_template.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/channel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/customer_goal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/css/index.scss" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index_copy.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dist/js/customer_goal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channel.php" afterPath="$PROJECT_DIR$/channel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chiendich.php" afterPath="$PROJECT_DIR$/chiendich.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/product.css" afterPath="$PROJECT_DIR$/dist/css/product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/product.css.map" afterPath="$PROJECT_DIR$/dist/css/product.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/product.scss" afterPath="$PROJECT_DIR$/dist/css/product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/inc_sidebar.php" afterPath="$PROJECT_DIR$/include/inc_sidebar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customer_goal.php" afterPath="$PROJECT_DIR$/customer_goal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/customer_goal.css" afterPath="$PROJECT_DIR$/dist/css/customer_goal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/customer_goal.css.map" afterPath="$PROJECT_DIR$/dist/css/customer_goal.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/customer_goal.scss" afterPath="$PROJECT_DIR$/dist/css/customer_goal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/inc_head.php" afterPath="$PROJECT_DIR$/include/inc_head.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/inc_js.php" afterPath="$PROJECT_DIR$/include/inc_js.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing_page.php" afterPath="$PROJECT_DIR$/landing_page.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.php" afterPath="$PROJECT_DIR$/product.php" />
     </list>
@@ -39,21 +34,25 @@
       <file leaf-file-name="customer_goal.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer_goal.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="306" column="54" lean-forward="false" selection-start-line="306" selection-start-column="54" selection-end-line="306" selection-end-column="54" />
+            <state relative-caret-position="226">
+              <caret line="302" column="47" lean-forward="false" selection-start-line="302" selection-start-column="39" selection-end-line="302" selection-end-column="47" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="customer_goal.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="customer_goal.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/customer_goal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+            <state relative-caret-position="330">
+              <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding>
                 <element signature="e#105#1477#0" expanded="false" />
               </folding>
@@ -61,11 +60,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="channel.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/css/channel.scss">
+      <file leaf-file-name="customer_goal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/js/customer_goal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="157" column="64" lean-forward="false" selection-start-line="157" selection-start-column="64" selection-end-line="157" selection-end-column="64" />
+            <state relative-caret-position="300">
+              <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nouislider.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bower_components/noUiSlider/nouislider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,6 +91,8 @@
       <find>modalChienDich</find>
       <find>khach</find>
       <find>chon</find>
+      <find>slider-age</find>
+      <find>noUi-horizontal .noUi-handle</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -93,19 +104,23 @@
         <option value="$PROJECT_DIR$/chiendich_copy.php" />
         <option value="$PROJECT_DIR$/dist/css/chiendich.css" />
         <option value="$PROJECT_DIR$/dist/css/chiendich.scss" />
-        <option value="$PROJECT_DIR$/product.php" />
         <option value="$PROJECT_DIR$/dist/css/product.scss" />
         <option value="$PROJECT_DIR$/dist/css/index.scss" />
-        <option value="$PROJECT_DIR$/chiendich.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/advertising_template.php.php" />
-        <option value="$PROJECT_DIR$/landing_page.php" />
         <option value="$PROJECT_DIR$/advertising_template.php" />
         <option value="$PROJECT_DIR$/include/inc_sidebar.php" />
-        <option value="$PROJECT_DIR$/customer_goal.php" />
-        <option value="$PROJECT_DIR$/channel.php" />
-        <option value="$PROJECT_DIR$/dist/css/customer_goal.scss" />
         <option value="$PROJECT_DIR$/dist/css/channel.scss" />
+        <option value="$PROJECT_DIR$/include/inc_head.php" />
+        <option value="$PROJECT_DIR$/include/inc_js.php" />
+        <option value="$PROJECT_DIR$/dist/js/customer_goal.js" />
+        <option value="$PROJECT_DIR$/bower_components/noUiSlider/nouislider.css" />
+        <option value="$PROJECT_DIR$/landing_page.php" />
+        <option value="$PROJECT_DIR$/product.php" />
+        <option value="$PROJECT_DIR$/chiendich.php" />
+        <option value="$PROJECT_DIR$/channel.php" />
+        <option value="$PROJECT_DIR$/customer_goal.php" />
+        <option value="$PROJECT_DIR$/dist/css/customer_goal.scss" />
       </list>
     </option>
   </component>
@@ -180,6 +195,10 @@
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -194,6 +213,16 @@
               <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminlte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminlte" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
@@ -209,8 +238,48 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminlte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminlte" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="noUiSlider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminlte" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adminlte" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bower_components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="noUiSlider" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nouislider.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -349,22 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chiendich.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="231" column="82" lean-forward="false" selection-start-line="231" selection-start-column="82" selection-end-line="231" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/landing_page.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -404,14 +457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="213" column="26" lean-forward="true" selection-start-line="213" selection-start-column="26" selection-end-line="217" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/inc_sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -420,48 +465,124 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc_header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc_head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc_js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/channel.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="112" column="9" lean-forward="true" selection-start-line="112" selection-start-column="9" selection-end-line="112" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/noUiSlider/nouislider.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/noUiSlider/nouislider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/landing_page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="36" column="53" lean-forward="false" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chiendich.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="53" lean-forward="false" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/channel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="404" column="46" lean-forward="false" selection-start-line="404" selection-start-column="46" selection-end-line="404" selection-end-column="46" />
+        <state relative-caret-position="267">
+          <caret line="38" column="53" lean-forward="false" selection-start-line="38" selection-start-column="53" selection-end-line="38" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="55" column="40" lean-forward="false" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/customer_goal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/customer_goal.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="306" column="54" lean-forward="false" selection-start-line="306" selection-start-column="54" selection-end-line="306" selection-end-column="54" />
+        <state relative-caret-position="226">
+          <caret line="302" column="47" lean-forward="false" selection-start-line="302" selection-start-column="39" selection-end-line="302" selection-end-column="47" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#0;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#td#1;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#1;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#2;n#tbody#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/customer_goal.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+        <state relative-caret-position="330">
+          <caret line="58" column="34" lean-forward="false" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
             <element signature="e#105#1477#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/channel.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="157" column="64" lean-forward="false" selection-start-line="157" selection-start-column="64" selection-end-line="157" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
