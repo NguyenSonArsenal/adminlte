@@ -30,159 +30,126 @@ $menuActive = 'product';
             <!-- /.col -->
                 <div class="col-md-12">
                     <div class="box box-primary">
-                
-                        <div class="box-header with-border">
-                            <div class="filter">
-                                <div class="searchbox pull-left">
-                                  <form action="" class="form-inline">
-                                    <input type="text" class="form-control" placeholder="Search">
-                                    <div class="form-group">
-                                        <button class="btn btn-success">
-                                            <i class="fa fa-search-minus" aria-hidden="true"></i>
-                                            Search
-                                        </button>
-                                    </div>
-                                  </form>
-                                </div>
-                                <div class="sort pull-right">
-                                    <select class="form-control" id="sel1">
-                                        <option>Sắp xếp theo mới nhất</option>
-                                        <option>Sắp xếp theo cũ nhất</option>
-                                        <option>Sắp xếp theo Tỉ lệ chuyển đổi</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
+
+                        <!-- Search and Filter -->
+                        <?php include 'include/inc_search_filter.php' ?>
+                        <!-- End Search and Filter -->
   
                         <div class="box-body no-padding">
                             <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped">
+                                <table class="table table-hover table-striped table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th><input type="checkbox"></th>
+                                            <th>Ảnh đại diện</th>
+                                            <th class="align-left">Thông tin sản phẩm</th>
+                                            <th>Liên hệ thu thập</th>
+                                            <th>Giá thành</th>
+                                            <th>Thao tác</th>
+                                        </tr>
+                                    </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox">
-                                            </td>
-                                            <td class="mailbox-star">
-                                                <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                            </td>
-                                            <td class="mailbox-name">
-                                                <div class="a_lcontent_record_data">
-                                                    <b>xe may </b>(123)
-                                                    <br>
-                                                    <small class="title_small">san pham hot</small>
-                                                    <br>
-                                                    <small class="title_small">Đã cập nhật 24/12/2017 | 07:42	<a class="a_link" href="#">Cap nhat ngay</a></small>
+
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox">
+                                        </td>
+                                        <td>
+                                            <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
+                                        </td>
+                                        <td>
+                                            <div class="product-info">
+                                                <b>xe may </b>(123)
+                                                <span>san pham hot</span>
+                                                <small>Đã cập nhật 24/12/2017 | 07:42
+                                                    <a class="a_link" href="#">Cap nhat ngay</a>
+                                                </small>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="a_lcontent_param">
+                                                <div class="a_lcontent_param_child">
+                                                    <span class="title_statistical"><b>0</b></span>
+                                                    <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
                                                 </div>
-                                            </td>
-                                            <td class="mailbox-subject">
-                                                <div class="a_lcontent_param">
-                                                    <div class="a_lcontent_param_child">
-                                                        <span class="title_statistical">0</span>
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
-                                                    </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-left">
+                                            <div class="a_lcontent_param">
+                                                <div class="a_lcontent_param_child">
+                                                    <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                                    <span class="title_statistical lbl-italic">Chưa có giá thành</span>
                                                 </div>
-                                            </td>
-                                            <td class="mailbox-attachment">
-                                                <div class="a_lcontent_param">
-                                                    <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
-                                                        <span class="title_statistical ">200.000 VND</span>
-                                                    </div>
-                                                    <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
-                                                        <span class="title_statistical">honda</span>
-                                                    </div>
-                                              </div>
-                                            </td>
-                                            <td class="mailbox-date">
-                                                <a href=""><i class="fa-trash fa fa-lg icon-delete"></i></a>
-                                            </td>
-                                      </tr>
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox">
-                                            </td>
-                                            <td class="mailbox-star">
-                                                <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                            </td>
-                                            <td class="mailbox-name">
-                                                <div class="a_lcontent_record_data">
-                                                    <b>xe may </b>(123)
-                                                    <br>
-                                                    <small class="title_small">san pham hot</small>
-                                                    <br>
-                                                    <small class="title_small">Đã cập nhật 24/12/2017 | 07:42	<a class="a_link" href="#">Cap nhat ngay</a></small>
+                                                <div class="a_lcontent_param_child">
+                                                    <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
+                                                    <span class="title_statistical lbl-italic">Chưa có nhà cung cấp</span>
                                                 </div>
-                                            </td>
-                                            <td class="mailbox-subject">
-                                                <div class="a_lcontent_param">
-                                                    <div class="a_lcontent_param_child">
-                                                        <span class="title_statistical">0</span>
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a class="btn btn-danger btn-xs">
+                                                <i class="fa-trash fa icon-delete"></i>
+                                                Xóa
+                                            </a>
+                                        </td>
+                                    </tr>
+
+                                        <?php for ($i=0; $i<10; $i++) {?>
+                                            <tr>
+                                                <td>
+                                                    <input type="checkbox">
+                                                </td>
+                                                <td>
+                                                    <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
+                                                </td>
+                                                <td>
+                                                    <div class="product-info">
+                                                        <b>xe may </b>(123)
+                                                        <span>san pham hot</span>
+                                                        <small>Đã cập nhật 24/12/2017 | 07:42
+                                                            <a class="a_link" href="#">Cap nhat ngay</a>
+                                                        </small>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td class="mailbox-attachment">
-                                                <div class="a_lcontent_param">
-                                                    <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
-                                                        <span class="title_statistical ">200.000 VND</span>
+                                                </td>
+                                                <td>
+                                                    <div class="a_lcontent_param">
+                                                        <div class="a_lcontent_param_child">
+                                                            <span class="title_statistical"><b>0</b></span>
+                                                            <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                                        </div>
                                                     </div>
-                                                    <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
-                                                        <span class="title_statistical">honda</span>
+                                                </td>
+                                                <td class="align-left">
+                                                    <div class="a_lcontent_param">
+                                                        <div class="a_lcontent_param_child">
+                                                            <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                                            <span class="title_statistical lbl-bold">200.000 VND</span>
+                                                        </div>
+                                                        <div class="a_lcontent_param_child">
+                                                            <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
+                                                            <span class="title_statistical lbl-bold">honda</span>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </td>
-                                            <td class="mailbox-date">
-                                                <a href=""><i class="fa-trash fa fa-lg icon-delete"></i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox">
-                                            </td>
-                                            <td class="mailbox-star">
-                                                <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                            </td>
-                                            <td class="mailbox-name">
-                                                <div class="a_lcontent_record_data">
-                                                    <b>xe may </b>(123)
-                                                    <br>
-                                                    <small class="title_small">san pham hot</small>
-                                                    <br>
-                                                    <small class="title_small">Đã cập nhật 24/12/2017 | 07:42	<a class="a_link" href="#">Cap nhat ngay</a></small>
-                                                </div>
-                                            </td>
-                                            <td class="mailbox-subject">
-                                                <div class="a_lcontent_param">
-                                                    <div class="a_lcontent_param_child">
-                                                        <span class="title_statistical">0</span>
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="mailbox-attachment">
-                                                <div class="a_lcontent_param">
-                                                    <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
-                                                        <span class="title_statistical ">200.000 VND</span>
-                                                    </div>
-                                                    <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
-                                                        <span class="title_statistical">honda</span>
-                                                    </div>
-                                                </div>
-                                            </td>
-                                            <td class="mailbox-date">
-                                                <a href=""><i class="fa-trash fa fa-lg icon-delete"></i></a>
-                                            </td>
-                                        </tr>
+                                                </td>
+                                                <td>
+                                                    <a class="btn btn-danger btn-xs">
+                                                        <i class="fa-trash fa icon-delete"></i>
+                                                        Xóa
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        <?php } ?>
+
                                     </tbody>
                                 </table>
                               <!-- /.table -->
                             </div>
-                          <!-- /.mail-box-messages -->
+                            <!-- /.mail-box-messages -->
+
+                            <!-- Paginate -->
+                            <?php include 'include/inc_paginate.php' ?>
+                            <!-- End paginate -->
+
                         </div>
                       <!-- /.box-body -->
                     </div>

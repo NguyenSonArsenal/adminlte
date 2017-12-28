@@ -28,19 +28,31 @@
                     .box-body {
                         .table-responsive {
                             .dataTable {
+                                >thead {
+                                    >tr {
+                                        >th {
+                                            text-align: center;
+                                        }
+                                    }
+                                }
                                 >tbody {
                                     >tr {
                                         >td {
+                                            text-align: center;
                                             vertical-align: middle;
-
-                                            .text-data {
-                                                .name_web {
+                                            .channel-info {
+                                                text-align: left;
+                                                >b {
                                                     font-size: 16px;
                                                 }
-                                                .des-web {
+                                                >span {
+                                                    display: block;
                                                     font-size: 11px;
+                                                    color: #212121;
+                                                    margin: 4px 0 -2px 0;
+                                                    font-weight: bold;
                                                 }
-                                                .time-update {
+                                                >small {
                                                     font-size: 9px;
                                                     > a {
                                                         color: #33b5e5;
@@ -79,7 +91,7 @@
 
                                             .status {
                                                 text-align: center;
-                                                >small {
+                                                .no-link-web {
                                                     color: #9e9e9e;
                                                     font-size: 13px;
                                                 }
@@ -143,6 +155,7 @@
                         position: relative;
                         bottom: 11px;
                         >table {
+
                             >tbody {
                                 >tr {
                                     height: 40px;

@@ -70,9 +70,20 @@ $menuActive = 'channel';
                         <!-- data -->
                         <div class="box-body no-padding">
                             <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped dataTable">
+                                <table class="table table-hover table-striped dataTable table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th><input type="checkbox"></th>
+                                            <th>Ảnh đại diện</th>
+                                            <th>Tên landing</th>
+                                            <th>Mẫu quảng cáo</th>
+                                            <th>Tỉ lệ chuyển đổi kênh quảng cáo</th>
+                                            <th>Trạng thái</th>
+                                            <th>Thao tác</th>
+                                        </tr>
+                                    </thead>
                                     <tbody>
-                                    <tr>
+                                        <tr>
                                         <td>
                                             <div>
                                                 <label>
@@ -84,14 +95,12 @@ $menuActive = 'channel';
                                             <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
                                         </td>
                                         <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cap nhat ngay)</a></small>
+                                            <div class="channel-info">
+                                                <b>VnExpress</b>(123)
+                                                <span>Kênh thông tin</span>
+                                                <small>Đã cập nhật 24/12/2017 | 07:42
+                                                    <a class="a-link" href="#">Cap nhat ngay</a>
+                                                </small>
                                             </div>
                                         </td>
                                         <td>
@@ -122,246 +131,88 @@ $menuActive = 'channel';
                                             <div class="status">
                                                 <b>Online</b>
                                                 <br>
-                                                <small>Chưa nhập đường dẫn kênh</small>
+                                                <small class="no-link-web">Chưa nhập đường dẫn kênh</small>
                                             </div>
                                         </td>
                                         <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
+                                            <a class="btn btn-danger btn-xs">
+                                                <i class="fa-trash fa"></i>
+                                                Xóa
+                                            </a>
                                         </td>
                                     </tr>
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                        </td>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cap nhat ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="load-more">
-                                                <div class="top">
-                                                    <a href="javascript:void(0)">
-                                                        1
-                                                        <i class="fa fa-file-text" aria-hidden="true"></i>
+
+                                        <?php for($i=0; $i<5; $i++) { ?>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <label>
+                                                            <input type="checkbox">
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
+                                                </td>
+                                                <td>
+                                                    <div class="channel-info">
+                                                        <b>VnExpress</b>(123)
+                                                        <span>Kênh thông tin</span>
+                                                        <small>Đã cập nhật 24/12/2017 | 07:42
+                                                            <a class="a-link" href="#">Cap nhat ngay</a>
+                                                        </small>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="load-more">
+                                                        <div class="top">
+                                                            <a href="javascript:void(0)">
+                                                                1
+                                                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                                                            </a>
+                                                        </div>
+                                                        <div class="title-load-more">
+                                                            <a href="">
+                                                                Xem thêm
+                                                                <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="conversion-rate">
+                                                        <a href="javascript:void(0)">
+                                                            0
+                                                            <i class="fa fa-refresh" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="status">
+                                                        <b>Online</b>
+                                                        <br>
+                                                        <small class="link-web">xxx.18+</small>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a class="btn btn-danger btn-xs">
+                                                        <i class="fa-trash fa"></i>
+                                                        Xóa
                                                     </a>
-                                                </div>
-                                                <div class="title-load-more">
-                                                    <a href="">
-                                                        Xem thêm
-                                                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="conversion-rate">
-                                                <a href="javascript:void(0)">
-                                                    0
-                                                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="status">
-                                                <b>Online</b>
-                                                <br>
-                                                <small class="link-web">xxx.18+</small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                        </td>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cap nhat ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="load-more">
-                                                <div class="top">
-                                                    <a href="javascript:void(0)">
-                                                        1
-                                                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="title-load-more">
-                                                    <a href="">
-                                                        Xem thêm
-                                                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="conversion-rate">
-                                                <a href="javascript:void(0)">
-                                                    0
-                                                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="status">
-                                                <b>Online</b>
-                                                <br>
-                                                <small>Chưa nhập đường dẫn kênh</small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                        </td>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cap nhat ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="load-more">
-                                                <div class="top">
-                                                    <a href="javascript:void(0)">
-                                                        1
-                                                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="title-load-more">
-                                                    <a href="">
-                                                        Xem thêm
-                                                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="conversion-rate">
-                                                <a href="javascript:void(0)">
-                                                    0
-                                                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="status">
-                                                <b>Online</b>
-                                                <br>
-                                                <small>Chưa nhập đường dẫn kênh</small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <img src="./dist/img/user4-128x128.jpg" height="40" width="40" alt="name image">
-                                        </td>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cap nhat ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="load-more">
-                                                <div class="top">
-                                                    <a href="javascript:void(0)">
-                                                        1
-                                                        <i class="fa fa-file-text" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="title-load-more">
-                                                    <a href="">
-                                                        Xem thêm
-                                                        <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="conversion-rate">
-                                                <a href="javascript:void(0)">
-                                                    0
-                                                    <i class="fa fa-refresh" aria-hidden="true"></i>
-                                                </a>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="status">
-                                                <b>Online</b>
-                                                <br>
-                                                <small>Chưa nhập đường dẫn kênh</small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
-                                        </td>
-                                    </tr>
+                                                </td>
+                                            </tr>
+                                        <?php } ?>
+
                                     </tbody>
                                 </table>
                                 <!-- /.table -->
                             </div>
                             <!-- /.mail-box-messages -->
+
+                            <!-- Paginate -->
+                            <?php include 'include/inc_paginate.php' ?>
+                            <!-- End paginate -->
+
                         </div>
                         <!-- end data -->
                     </div>
