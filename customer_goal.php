@@ -62,7 +62,6 @@ $menuActive = 'customerGoal';
                                                     <b>VnExpress</b>(123)
                                                     <span>Kênh thông tin</span>
                                                     <small>Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a-link" href="#">Cap nhat ngay</a>
                                                     </small>
                                                 </div>
                                             </td>
@@ -106,7 +105,6 @@ $menuActive = 'customerGoal';
                                                         <b>VnExpress</b>(123)
                                                         <span>Kênh thông tin</span>
                                                         <small>Đã cập nhật 24/12/2017 | 07:42
-                                                            <a class="a-link" href="#">Cap nhat ngay</a>
                                                         </small>
                                                     </div>
                                                 </td>
