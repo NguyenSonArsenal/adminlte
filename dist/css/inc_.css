@@ -1,19 +1,15 @@
 .wrapper .main-sidebar .sidebar .sidebar-menu .menu-active {
-  background: #1e282c;
-}
+  background: #1e282c; }
 
 .paginate_page {
-  margin: 20px 10px;
-}
-.paginate_page .dataTables_info {
-  position: relative;
-  top: 6px;
-}
-.paginate_page .dataTables_paginate .pagination {
-  margin: 0px;
-  position: relative;
-  left: -23px;
-}
+  margin: 20px 10px; }
+  .paginate_page .dataTables_info {
+    position: relative;
+    top: 6px; }
+  .paginate_page .dataTables_paginate .pagination {
+    margin: 0px;
+    position: relative;
+    left: -23px; }
 
 /*Modal add product*/
 .wrapper #modal_add_product .modal-dialog .modal-content {

@@ -98,33 +98,34 @@ $menuActive = 'campaignConstruction';
                                 </div>
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Ngân sách dự kiến :</label>
-                                    <div class="col-md-3" style="width: 240px;">
-                                        <div class="radio pull-left" style="margin-right: 10px">
-                                            <label>
-                                                <input type="radio" name="" id="optionsRadios1" value="option1"> Toàn chiến dịch
-                                            </label>
+                                    <div class="col-md-9">
+                                        <div class="col-md-4">
+                                            <div class="radio pull-left" style="margin-right: 10px">
+                                                <label>
+                                                    <input type="radio" name="" id="optionsRadios1" value="option1"> Toàn chiến dịch
+                                                </label>
+                                            </div>
+                                            <div class="radio pull-left">
+                                                <label>
+                                                    <input type="radio" name="" id="optionsRadios2" value="option2"> Theo ngày
+                                                </label>
+                                            </div>
                                         </div>
-                                        <div class="radio pull-left">
-                                            <label>
-                                                <input type="radio" name="" id="optionsRadios2" value="option2"> Theo ngày
-                                            </label>
+                                        <div class="col-md-4">
+                                            <input type="text" class="form-control pull-left" placeholder="100.000" style="width:130px;text-align:right;margin-right: 10px">
+                                            <select class="form-control pull-left" style="width:80px;text-align:right;">
+                                                <option>VND</option>
+                                                <option>USD</option>
+                                            </select>
                                         </div>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <input type="text" class="form-control pull-left" placeholder="100.000" style="width:100px;text-align:right;margin-right: 10px">
-                                        <select class="form-control pull-left" style="width:80px;text-align:right;">
-                                            <option>VND</option>
-                                            <option>USD</option>
-                                        </select>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Kênh quảng cáo :</label>
                                     <div class="col-md-9" id="append-val">
-                                        <!-- box list-->
+                                        <!-- box list route-->
 
-                                        <!-- end box list-->
-
+                                        <!-- end box list route-->
                                     </div>
                                 </div>
                                 <div class="form-group">

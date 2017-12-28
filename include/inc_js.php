@@ -57,13 +57,13 @@
             string = '';
             $value = $(this).attr('data-content');
             var html = $value;
-            string = '<div class="box-item" style="width: 100%;margin-bottom: 10px;">\n' +
+            string = '<div class="box-item" style="margin-bottom: 10px;">\n' +
                 '                                            <div class=\'col-md-4\' style=\'margin-left: -15px;\'>\n' +
                 '                                                <a class=\'remove-val btn btn-xs btn-block btn-social btn-' + $value + ' pull-right\' style=\'height: 30px; line-height: 25px; \'>\n' +
                 '                                                    <i class=\'fa fa-' + $value + '\' style="line-height: 30px;"></i> ' + $value + ' <i class=\'delete-val fa fa-times pull-right\' style=\'line-height: 25px;\'></i>\n' +
                 '                                                </a>\n' +
                 '                                            </div>\n' +
-                '                                            <div class=\'col-md-5\'>\n' +
+                '                                            <div class=\'col-md-4\'>\n' +
                 '                                                <select class=\'form-control pull-right input-sm\' style=\'width:80px;text-align:right;margin-left:10px;\'>\n' +
                 '                                                    <option>VND</option>\n' +
                 '                                                    <option>USD</option>\n' +

@@ -1,32 +1,18 @@
-/*Modal add customer_history*/
-.wrapper #modal_history_customer_goal .modal-dialog {
-  width: 80%;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > thead > tr > th {
-  text-align: center;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > tbody > tr > td {
-  text-align: center;
-  vertical-align: middle;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > tbody > tr > td .text-data {
-  text-align: left;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > tbody > tr > td .text-data > b {
-  font-size: 16px;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > tbody > tr > td .text-data > span {
-  display: block;
-  font-size: 11px;
-  color: #212121;
-  margin: 4px 0 -2px 0;
-  font-weight: bold;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > tbody > tr > td .text-data > small {
-  font-size: 9px;
-}
-.wrapper #modal_history_customer_goal .modal-dialog .modal-content .modal-body .box-body .table-responsive .table > tbody > tr > td .text-data > small > a {
-  color: #33b5e5;
-}
+
+
+  .wrapper #modalChienDich .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image {
+    border: 1px dashed #212121;
+    margin-top: 10px;
+    height: 200px; }
+    .wrapper #modalChienDich .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image .icon-backup {
+      color: #9e9e9e; }
+      .wrapper #modalChienDich .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image .icon-backup:hover {
+        color: #ff6f00; }
+    .wrapper #modalChienDich .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image .center {
+      color: #9e9e9e; }
+    .wrapper #modalChienDich .modal-dialog .modal-content .modal-body .row .col-md-4 .preview-image:hover {
+      border: 1px solid #ff6f00;
+      cursor: pointer; }
+
 
 /*# sourceMappingURL=campaign_construction.css.map */
