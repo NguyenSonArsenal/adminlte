@@ -3,14 +3,14 @@
     <section class="sidebar" style="height: auto;">
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu tree" data-widget="tree">
-            <li class="<?= isset($menuActive) && $menuActive=='index' ? 'menu-active' : ''?>">
-                <a href="./index.php">
+            <li class="<?= isset($menuActive) && $menuActive=='campaignConstruction' ? 'menu-active' : ''?>">
+                <a href="./campaign_construction.php">
                     <i class="fa fa-book"></i>
                     <span>Xây dựng chiến dịch</span>
                 </a>
             </li>
-            <li class="<?= isset($menuActive) && $menuActive == 'chiendich' ? 'menu-active' : '' ?>">
-                <a href="./chiendich.php">
+            <li class="<?= isset($menuActive) && $menuActive == 'campaign' ? 'menu-active' : '' ?>">
+                <a href="./campaign.php">
                     <i class="fa fa-book"></i>
                     <span>Chiến dịch</span>
                 </a>
