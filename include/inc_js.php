@@ -35,16 +35,30 @@
             string = '';
             $value = $(this).attr('data-content');
             var html = $value;
-            string  = "<a class='remove-val btn btn-block btn-social btn-"+$value+"'><i class='fa fa-"+$value+"'></i> "+$value+"<i class='delete-val fa fa-times pull-right'></i></a>";
+            string  = '<div class="box-item" style="width: 100%;margin-bottom: 10px;">\n' +
+                '                                            <div class=\'col-md-4\' style=\'margin-left: -15px;\'>\n' +
+                '                                                <a class=\'remove-val btn btn-xs btn-block btn-social btn-'+$value+' pull-right\' style=\'height: 30px; line-height: 25px; \'>\n' +
+                '                                                    <i class=\'fa fa-'+$value+'\' style="line-height: 30px;"></i> '+$value+' <i class=\'delete-val fa fa-times pull-right\' style=\'line-height: 25px;\'></i>\n' +
+                '                                                </a>\n' +
+                '                                            </div>\n' +
+                '                                            <div class=\'col-md-5\'>\n' +
+                '                                                <select class=\'form-control pull-right input-sm\' style=\'width:80px;text-align:right;margin-left:10px;\'>\n' +
+                '                                                    <option>VND</option>\n' +
+                '                                                    <option>USD</option>\n' +
+                '                                                </select>\n' +
+                '                                                <input type=\'text\' class=\'form-control input-sm pull-right\' placeholder=\'100.000\' style=\'width:130px;text-align:right;\'>\n' +
+                '                                            </div>\n' +
+                '                                            <div class="clearfix"></div>\n' +
+                '                                        </div>\n';
             $("#append-val").append(string);
-            $("#myModal").modal('hide');
+            $("#modal_add_route").modal('hide');
         });
-    });
-    $(document).on('click','.delete-val', function (e) {
+        $(document).on('click','.delete-val', function (e) {
         e.preventDefault();
         e.stopPropagation();
         var $this = $(this);
-        $this.parents('a.remove-val').remove();
+        $this.parents('div.box-item').remove();
+    });
     });
 </script>
 <script src="plugins/iCheck/icheck.min.js"></script>
