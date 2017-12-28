@@ -48,12 +48,12 @@ $menuActive = 'campaignConstruction';
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Khách hàng mục tiêu:</label>
                                     <div class="col-md-8">
-                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal-add-customer-goal">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-add-customer-goal">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                             Thêm mới
                                         </button>
                                         <span style="padding:0px 10px;">hoặc</span>
-                                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modal_history_customer_goal">
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_history_customer_goal">
                                             <i class="fa fa-check" aria-hidden="true"></i>
                                             Chọn trong lịch sử
                                         </button>
@@ -142,7 +142,7 @@ $menuActive = 'campaignConstruction';
                                     <i class="fa fa-repeat" aria-hidden="true"></i>
                                     Tiếp tục
                                 </button>
-                                <button type="submit" class="btn btn-info pull-right">
+                                <button type="submit" class="btn btn-primary pull-right">
                                     <i class="fa fa-save" aria-hidden="true"></i>
                                     Lưu và kết thúc
                                 </button>
@@ -190,152 +190,14 @@ $menuActive = 'campaignConstruction';
         <!-- End Modal them kenh -->
 
         <!-- Modal them san pham moi -->
-        <div id="modal_add_product" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Thêm sản phẩm mới</h4>
-                    </div>
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div>Ảnh Sản phẩm</div>
-                                <div class="preview-image">
-                                    <i class="material-icons icon-backup">backup</i>
-                                    <p class="center">
-                                        Thêm ảnh có định dạng JPEG, JPG, PNG
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="col-md-8">
-                                <form class="form-horizontal" action="">
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-4">Tên Sản phẩm* :</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" name="" maxlength="50">
-                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-4">Mã Sản phẩm :</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" name="" maxlength="10">
-                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-4">Nhà cung cấp :</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" name="" maxlength="50">
-                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-4">Giá thành :</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" name="">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-sm-4">Mô tả :</label>
-                                        <div class="col-sm-8">
-                                            <input type="text" class="form-control" name="" maxlength="250">
-                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Hủy</button>
-                        <button type="button" class="btn btn-success" data-dismiss="modal">Lưu</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php include 'include/inc_modal_add_product.php' ?>
         <!-- End Modal them san pham moi -->
 
-        <!-- Modal them khach hang muc tieu-->
-        <div id="modal-add-customer-goal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
+        <!-- Modal add customer goal-->
+        <?php include 'include/inc_modal_add_customer_goal.php' ?>
+        <!-- End modal add customer goal-->
 
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title"><b>Thêm Khách hàng mục tiêu mới</b></h4>
-                    </div>
-
-                    <!-- Modal body-->
-                    <div class="modal-body">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label for="">Tên nhóm khách hàng <span class="color-red">*</span> :</label>
-                            </div>
-                            <div class="col-md-8">
-                                <input type="text" class="form-control" name="channel_name">
-                            </div>
-                        </div>
-                        <div class="row div_select2">
-                            <div class="col-md-4 "><label for="">Vị trí địa lý :</label></div>
-                            <div class="col-md-8 lbl-address">
-                                <select id="e1" multiple="multiple" style="width:100%;">
-                                    <option>Alabama</option>
-                                    <option>Alaska</option>
-                                    <option>California</option>
-                                    <option>Delaware</option>
-                                    <option>Tennessee</option>
-                                    <option>Texas</option>
-                                    <option>Washington</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"><label for="">Giới tính :</label></div>
-                            <div class="col-md-8">
-                                <span class="radio-inline"><input type="radio" name="optradio" checked>Tất cả</span>
-                                <span class="radio-inline"><input type="radio" name="optradio">Nam</span>
-                                <span class="radio-inline"><input type="radio" name="optradio">Nữ</span>
-                                <span class="radio-inline"><input type="radio" name="optradio">Khác</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"><label for="">Độ tuổi :</label></div>
-                            <div class="col-md-8 slider">
-                                <div type="text" class="form-control" id="slider-age" name="description">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4"><label for="">Đặc điểm nổi bật :</label></div>
-                            <div class="col-md-8">
-                                <input type="text" class="form-control" name="description">
-                            </div>
-                        </div>
-                    </div>
-                    <!--End modal body-->
-
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">
-                            <i class="fa fa-remove" aria-hidden="true"></i>
-                            Hủy
-                        </button>
-                        <button type="button" class="btn btn-success" data-dismiss="modal">
-                            <i class="fa fa-check" aria-hidden="true"></i>
-                            Lưu
-                        </button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!-- End Modal them khach hang muc tieu-->
-
-        <!-- Modal them khach hang muc tieu-->
+        <!-- Modal them lich su khach hang muc tieu-->
         <div id="modal_history_customer_goal" class="modal fade" role="dialog">
             <div class="modal-dialog">
 
@@ -534,13 +396,12 @@ $menuActive = 'campaignConstruction';
 
             </div>
         </div>
-        <!-- End Modal them khach hang muc tieu-->
+        <!-- End Modal lich su them khach hang muc tieu-->
 
     </div>
     <!-- ./wrapper -->
 
     <?php include 'include/inc_js.php' ?>
-    <script src="dist/js/customer_goal.js"></script>
 
 </div>
 </body>
