@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df0028a0-28be-4e74-a1ac-4431d33c99cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/include/inc_search_filter.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/advertising_template.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/advertising_template.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/css/advertising_template.css.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/advertising_template.scss" afterPath="$PROJECT_DIR$/include/inc_paginate.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/sidebar.css" afterPath="$PROJECT_DIR$/dist/css/inc_.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/sidebar.css.map" afterPath="$PROJECT_DIR$/dist/css/inc_.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/sidebar.scss" afterPath="$PROJECT_DIR$/dist/css/inc_.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channel.php" afterPath="$PROJECT_DIR$/channel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chiendich.php" afterPath="$PROJECT_DIR$/chiendich.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/customer_goal.php" afterPath="$PROJECT_DIR$/customer_goal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/channel.css" afterPath="$PROJECT_DIR$/dist/css/channel.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/channel.css.map" afterPath="$PROJECT_DIR$/dist/css/channel.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/channel.scss" afterPath="$PROJECT_DIR$/dist/css/channel.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/customer_goal.css" afterPath="$PROJECT_DIR$/dist/css/customer_goal.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/customer_goal.css.map" afterPath="$PROJECT_DIR$/dist/css/customer_goal.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/customer_goal.scss" afterPath="$PROJECT_DIR$/dist/css/customer_goal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/landing_page.css" afterPath="$PROJECT_DIR$/dist/css/landing_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/landing_page.css.map" afterPath="$PROJECT_DIR$/dist/css/landing_page.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/landing_page.scss" afterPath="$PROJECT_DIR$/dist/css/landing_page.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/product.css" afterPath="$PROJECT_DIR$/dist/css/product.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/product.css.map" afterPath="$PROJECT_DIR$/dist/css/product.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/product.scss" afterPath="$PROJECT_DIR$/dist/css/product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/inc_head.php" afterPath="$PROJECT_DIR$/include/inc_head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing_page.php" afterPath="$PROJECT_DIR$/landing_page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product.php" afterPath="$PROJECT_DIR$/product.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +41,7 @@
       <file leaf-file-name="channel.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/css/channel.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="-225">
               <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="36" selection-end-column="33" />
               <folding />
             </state>
@@ -167,38 +141,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -661,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/channel.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="-225">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="36" selection-end-column="33" />
           <folding />
         </state>
