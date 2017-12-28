@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AAW8B,4GAAI;EACF,cAAc,EAAE,MAAM",
-"sources": ["chiendich.scss"],
+"sources": ["campaign.scss"],
 "names": [],
-"file": "chiendich.css"
+"file": "campaign.css"
 }
