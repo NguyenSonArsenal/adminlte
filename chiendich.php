@@ -1,3 +1,6 @@
+<?php
+$menuActive = 'chiendich';
+?>
 <!DOCTYPE html>
 <html>
 <head>

@@ -3,13 +3,42 @@
     <section class="sidebar" style="height: auto;">
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu tree" data-widget="tree">
-            <li><a href="./index.php"><i class="fa fa-book"></i> <span>Xây dựng chiến dịch</span></a>
+            <li class="<?= isset($menuActive) && $menuActive=='index' ? 'menu-active' : ''?>">
+                <a href="./index.php">
+                    <i class="fa fa-book"></i>
+                    <span>Xây dựng chiến dịch</span>
+                </a>
             </li>
-            <li><a href="./chiendich.php"><i class="fa fa-book"></i> <span>Chiến dịch</span></a></li>
-            <li><a href="./landing_page.php"><i class="fa fa-book"></i> <span>Landing page</span></a></li>
-            <li><a href="./product.php"><i class="fa fa-book"></i> <span>Sản phẩm</span></a></li>
-            <li><a href="./channel.php"><i class="fa fa-book"></i> <span>Kênh</span></a></li>
-            <li><a href="./customer_goal.php"><i class="fa fa-book"></i> <span>Khách hàng mục tiêu</span></a></li>
+            <li class="<?= isset($menuActive) && $menuActive == 'chiendich' ? 'menu-active' : '' ?>">
+                <a href="./chiendich.php">
+                    <i class="fa fa-book"></i>
+                    <span>Chiến dịch</span>
+                </a>
+            </li>
+            <li class="<?= isset($menuActive) && $menuActive=='landingPage' ? 'menu-active' : ''?>">
+                <a href="./landing_page.php">
+                    <i class="fa fa-book"></i>
+                    <span>Landing page</span>
+                </a>
+            </li>
+            <li class="<?= isset($menuActive) && $menuActive=='product' ? 'menu-active' : ''?>">
+                <a href="./product.php">
+                    <i class="fa fa-book"></i>
+                    <span>Sản phẩm</span>
+                </a>
+            </li>
+            <li class="<?= isset($menuActive) && $menuActive=='channel' ? 'menu-active' : ''?>">
+                <a href="./channel.php">
+                    <i class="fa fa-book"></i>
+                    <span>Kênh</span>
+                </a>
+            </li>
+            <li class="<?= isset($menuActive) && $menuActive=='customerGoal' ? 'menu-active' : ''?>">
+                <a href="./customer_goal.php">
+                    <i class="fa fa-book"></i>
+                    <span>Khách hàng mục tiêu</span>
+                </a>
+            </li>
         </ul>
     </section>
     <!-- /.sidebar -->

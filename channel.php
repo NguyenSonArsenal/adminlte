@@ -1,3 +1,6 @@
+<?php
+$menuActive = 'channel';
+?>
 <!DOCTYPE html>
 <html>
 <head>

@@ -95,6 +95,10 @@
   height: 8px;
 }
 
+.noUi-connect {
+  background-color: #008d4c;
+}
+
 .select2 .selection .select2-selection--multiple {
   border: none;
   background: #fafafa;
@@ -102,10 +106,15 @@
   border-radius: 0;
 }
 .select2 .selection .select2-selection--multiple .select2-selection__rendered .select2-selection__choice {
-  background-color: #3c8dbc;
+  background-color: #008d4c;
   border-color: #367fa9;
   padding: 1px 10px;
   color: #fff;
+}
+.select2 .selection .select2-selection--multiple .select2-selection__rendered .select2-selection__choice .select2-selection__choice__remove {
+  color: white;
+  padding-right: 2px;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=customer_goal.css.map */

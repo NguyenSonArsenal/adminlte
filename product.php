@@ -1,3 +1,7 @@
+<?php
+$menuActive = 'product';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

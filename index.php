@@ -1,3 +1,7 @@
+<?php
+    $menuActive = 'index';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>

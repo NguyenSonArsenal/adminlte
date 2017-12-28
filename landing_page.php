@@ -1,3 +1,7 @@
+<?php
+$menuActive = 'landingPage';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +35,7 @@
                                     <form action="" class="form-inline">
                                         <input type="text" class="form-control" placeholder="Search">
                                         <div class="form-group">
-                                            <button class="btn btn-success">
+                                            <button class="btn btn-primary">
                                                 <i class="fa fa-search-minus" aria-hidden="true"></i>
                                                 Search
                                             </button>
@@ -50,93 +54,117 @@
 
                         <div class="box-body no-padding">
                             <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped">
+                                <table class="table table-hover table-striped table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>
+                                            <input type="checkbox">
+                                        </th>
+                                        <th>Trạng thái</th>
+                                        <th>Tên landing</th>
+                                        <th>Chiến dịch tham gia</th>
+                                        <th>Ngày tạo</th>
+                                        <th>Ngày cập nhật</th>
+                                        <th>Thao tác</th>
+                                    </tr>
+                                    </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-xs"
-                                                    data-toggle="modal" data-target="#modalForDraff">Nháp
-                                            </button>
-                                        </td>
-                                        <td>
-                                            <div class="content-param">
-                                                <label>
-                                                    <b>xxx</b>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="content-campaign-statistics">
-                                                <span>Chưa tham gia chiến dịch</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="content-edit">
-                                                <button class="btn btn-success btn-xs">Chỉnh sửa</button>
-                                                <br>
-                                                <small>Đã cập nhật 26/12/2017 | 04:47</small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-copy fa icon-copy"></i></a>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div>
-                                                <label>
-                                                    <input type="checkbox">
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <input type="checkbox" checked data-toggle="toggle" data-size="mini"
-                                                   data-on="Đã xuất bản"
-                                                   data-off="Tạm khóa"
-                                                   data-onstyle="success"
-                                            >
-                                            <br>
-                                            <a href="" class="a_link link-under">Link</a>
-                                        </td>
-                                        <td>
-                                            <div class="content-param">
-                                                <label>
-                                                    <b>xxx</b>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="content-campaign-statistics">
-                                                <span>Chưa tham gia chiến dịch</span>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="content-edit">
-                                                <button class="btn btn-success btn-xs">Chỉnh sửa</button>
-                                                <br>
-                                                <small>Đã cập nhật 26/12/2017 | 04:47</small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-copy fa icon-copy"></i></a>
-                                        </td>
-                                        <td>
-                                            <a href=""><i class="fa-trash fa icon-delete"></i></a>
-                                        </td>
-                                    </tr>
+                                    <?php for ($i = 0; $i < 10; $i++) { ?>
+                                        <tr>
+                                            <td>
+                                                <div>
+                                                    <label>
+                                                        <input type="checkbox">
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <button type="button" class="btn btn-xs"
+                                                        data-toggle="modal" data-target="#modalForDraff">Nháp
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <div class="content-param">
+                                                    <label>
+                                                        <b>xxx</b>
+                                                    </label>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="content-campaign-statistics">
+                                                    <span>Chưa tham gia chiến dịch</span>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="content-edit">
+                                                    <small>Đã cập nhật 26/12/2017 | 04:47</small>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="content-edit">
+                                                    <small>Đã cập nhật 26/12/2017 | 04:47</small>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-info btn-xs">
+                                                    <i class="fa fa-edit"></i>
+                                                    Chỉnh sửa
+                                                </a>
+                                                <a class="btn btn-primary btn-xs">
+                                                    <i class="fa-copy fa icon-copy"></i>
+                                                    Copy
+                                                </a>
+                                                <a class="btn btn-danger btn-xs">
+                                                    <i class="fa-trash fa icon-delete"></i>
+                                                    Xóa
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <?php
+                                    }
+                                    ?>
+
                                     </tbody>
                                 </table>
                                 <!-- /.table -->
+
+
+                            </div>
+                            <div class="paginate_page">
+                                <div class="dataTables_info pull-left" id="example2_info" role="status" aria-live="polite">
+                                    Showing 1 to 10 of 57 entries
+                                </div>
+                                <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
+                                    <ul class="pagination pull-right">
+                                        <li class="paginate_button previous disabled" id="example2_previous">
+                                            <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">
+                                                Previous
+                                            </a>
+                                        </li>
+                                        <li class="paginate_button active">
+                                            <a href="#" aria-controls="example2" data-dt-idx="1" tabindex="0">1</a>
+                                        </li>
+                                        <li class="paginate_button ">
+                                            <a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">2</a>
+                                        </li>
+                                        <li class="paginate_button ">
+                                            <a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">3</a>
+                                        </li>
+                                        <li class="paginate_button ">
+                                            <a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">4</a>
+                                        </li>
+                                        <li class="paginate_button ">
+                                            <a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">5</a>
+                                        </li>
+                                        <li class="paginate_button ">
+                                            <a href="#" aria-controls="example2" data-dt-idx="2" tabindex="0">6</a>
+                                        </li>
+                                        <li class="paginate_button next" id="example2_next">
+                                            <a href="#" aria-controls="example2" data-dt-idx="7" tabindex="0">Next</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="clearfix"></div>
                             </div>
                             <!-- /.mail-box-messages -->
                         </div>
@@ -184,7 +212,7 @@
 
 </div>
 <!-- ./wrapper -->
-<?php include 'include/inc_js.php'?>
+<?php include 'include/inc_js.php' ?>
 
 </body>
 </html>

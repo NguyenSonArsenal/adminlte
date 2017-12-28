@@ -8,6 +8,9 @@
 .wrapper .content-wrapper .content-header > span {
   font-size: 20px;
 }
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > thead > tr > th {
+  text-align: center;
+}
 .wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td {
   padding: 5px 0;
   vertical-align: middle;
@@ -36,12 +39,17 @@
 .wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .icon-copy {
   font-size: 18px;
 }
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .icon-delete {
-  color: #9e9e9e;
-  font-size: 18px;
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .paginate_page {
+  margin: 20px 10px;
 }
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .icon-delete:hover {
-  color: #ff3547;
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .paginate_page .dataTables_info {
+  position: relative;
+  top: 6px;
+}
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .paginate_page .dataTables_paginate .pagination {
+  margin: 0px;
+  position: relative;
+  left: -23px;
 }
 
 /*Modal*/

@@ -12,7 +12,11 @@
 <!-- Theme style -->
 <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
 <!-- AdminLTE Skins. Choose a skin from the css/skins
-     folder instead of downloading all of them to reduce the load. -->
+folder instead of downloading all of them to reduce the load. -->
+
+<!-- Style sidebar -->
+<link rel="stylesheet" href="dist/css/sidebar.css">
+
 <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 <!-- Morris chart -->
 <link rel="stylesheet" href="bower_components/morris.js/morris.css">
