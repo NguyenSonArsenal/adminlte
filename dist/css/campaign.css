@@ -1,5 +1,9 @@
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td {
-  vertical-align: middle;
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td{
+    vertical-align: middle;
 }
-
+.name-campaign{ font-weight: bold; color: #00C851; }
 /*# sourceMappingURL=chiendich.css.map */
+input[type=text], select.form-control, .date .input-group-addon{
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+}

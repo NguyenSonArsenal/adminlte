@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="df0028a0-28be-4e74-a1ac-4431d33c99cd" name="Default" comment="">
 <<<<<<< HEAD
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campaign.php" afterPath="$PROJECT_DIR$/campaign.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campaign_construction.php" afterPath="$PROJECT_DIR$/campaign_construction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/campaign.css" afterPath="$PROJECT_DIR$/dist/css/campaign.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/campaign_construction.css" afterPath="$PROJECT_DIR$/dist/css/campaign_construction.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/inc_js.php" afterPath="$PROJECT_DIR$/include/inc_js.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing_page.php" afterPath="$PROJECT_DIR$/landing_page.php" />
+=======
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/adminlte.iml" afterPath="$PROJECT_DIR$/.idea/adminlte.iml" />
@@ -18,6 +26,7 @@
       <change type="MOVED" beforePath="$PROJECT_DIR$/dist/css/index.scss" afterPath="$PROJECT_DIR$/dist/css/campaign_construction.scss" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/campaign_construction.php" />
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,6 +58,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
 <<<<<<< HEAD
+      <file leaf-file-name="campaign.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/campaign.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="225" column="32" lean-forward="false" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+=======
+<<<<<<< HEAD
       <file leaf-file-name="channel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/channel.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,6 +83,7 @@
               <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
               <folding />
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
             </state>
           </provider>
         </entry>
@@ -76,10 +98,33 @@
       <file leaf-file-name="campaign_construction.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/campaign_construction.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="289">
+              <caret line="543" column="0" lean-forward="false" selection-start-line="543" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
+=======
             <state relative-caret-position="5336">
               <caret line="238" column="96" lean-forward="false" selection-start-line="238" selection-start-column="96" selection-end-line="238" selection-end-column="96" />
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inc_js.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/inc_js.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding>
+                <marker date="1514454127634" expanded="true" signature="1829:1861" ph="..." />
+                <marker date="1514454127634" expanded="true" signature="1962:1981" ph="..." />
+                <marker date="1514454127634" expanded="true" signature="2149:2182" ph="..." />
+                <marker date="1514454127634" expanded="true" signature="2301:2319" ph="..." />
+                <marker date="1514454127634" expanded="true" signature="2396:2414" ph="..." />
+                <marker date="1514454127634" expanded="true" signature="2790:2835" ph="..." />
+                <marker date="1514454127634" expanded="true" signature="3275:3304" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,11 +145,20 @@
       <find>search</find>
       <find>sear</find>
 <<<<<<< HEAD
+      <find>Thêm sản</find>
+      <find>placeholder=&quot;100.000&quot;</find>
+      <find>a_ccamp_field_title</find>
+      <find>xây dựng hc</find>
+      <find>Trạng thái</find>
+      <find>dataTables_wrapper</find>
+=======
+<<<<<<< HEAD
       <find>title_small</find>
 =======
       <find>a_ccamp_field_title</find>
       <find>Thêm sản</find>
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,10 +178,20 @@
         <option value="$PROJECT_DIR$/advertising_template.php" />
         <option value="$PROJECT_DIR$/bower_components/noUiSlider/nouislider.css" />
         <option value="$PROJECT_DIR$/dist/js/customer_goal.js" />
-        <option value="$PROJECT_DIR$/include/inc_js.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/include/inc_sidebar.php" />
         <option value="$PROJECT_DIR$/dist/css/sidebar.scss" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/dist/css/customer_goal.scss" />
+        <option value="$PROJECT_DIR$/customer_goal.php" />
+        <option value="$PROJECT_DIR$/dist/css/landing_page.scss" />
+        <option value="$PROJECT_DIR$/dist/css/campaign_construction.css" />
+        <option value="$PROJECT_DIR$/landing_page.php" />
+        <option value="$PROJECT_DIR$/campaign.php" />
+        <option value="$PROJECT_DIR$/dist/css/campaign.css" />
+        <option value="$PROJECT_DIR$/campaign_construction.php" />
+        <option value="$PROJECT_DIR$/include/inc_js.php" />
+=======
         <option value="$PROJECT_DIR$/include/inc_search_filter.php" />
         <option value="$PROJECT_DIR$/chiendich.php" />
         <option value="$PROJECT_DIR$/include/inc_paginate.php" />
@@ -146,6 +210,7 @@
         <option value="$PROJECT_DIR$/campaign_construction.php" />
         <option value="$PROJECT_DIR$/dist/css/campaign_construction.css" />
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
       </list>
     </option>
   </component>
@@ -229,8 +294,12 @@
               <item name="adminlte" type="b2602c69:ProjectViewProjectNode" />
               <item name="adminlte" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dist" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="customer_goal.scss" type="620a8d5e:NestingTreeNode" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="adminlte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adminlte" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -316,12 +385,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514447740444</updated>
-      <workItem from="1514447741703" duration="1548000" />
+      <workItem from="1514447741703" duration="6369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1548000" />
+    <option name="totallyTimeSpent" value="6369000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +462,9 @@
         <state relative-caret-position="3059">
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
           <caret line="133" column="69" lean-forward="false" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
-          <folding />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,6 +651,8 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/dist/css/customer_goal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-835">
@@ -590,6 +663,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
 =======
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
     <entry file="file://$PROJECT_DIR$/dist/js/customer_goal.js">
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
       <provider selected="true" editor-type-id="text-editor">
@@ -664,7 +738,11 @@
 =======
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
+          <folding />
+=======
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
         </state>
       </provider>
     </entry>
@@ -737,14 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing_page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="133" column="69" lean-forward="false" selection-start-line="133" selection-start-column="69" selection-end-line="133" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customer_goal.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -774,6 +844,27 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/dist/css/customer_goal.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="83" column="1" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="83" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing_page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="215" column="0" lean-forward="false" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/css/campaign_construction.scss">
+=======
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/dist/css/customer_goal.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -783,6 +874,7 @@
           </folding>
 =======
     <entry file="file://$PROJECT_DIR$/dist/css/campaign.css">
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -790,26 +882,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/customer_goal.css">
+    <entry file="file://$PROJECT_DIR$/dist/css/campaign.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="83" column="1" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="83" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/campaign_construction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5336">
-          <caret line="238" column="96" lean-forward="false" selection-start-line="238" selection-start-column="96" selection-end-line="238" selection-end-column="96" />
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/campaign_construction.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="358">
+          <caret line="40" column="1" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc_js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1514454127634" expanded="true" signature="1829:1861" ph="..." />
+            <marker date="1514454127634" expanded="true" signature="1962:1981" ph="..." />
+            <marker date="1514454127634" expanded="true" signature="2149:2182" ph="..." />
+            <marker date="1514454127634" expanded="true" signature="2301:2319" ph="..." />
+            <marker date="1514454127634" expanded="true" signature="2396:2414" ph="..." />
+            <marker date="1514454127634" expanded="true" signature="2790:2835" ph="..." />
+            <marker date="1514454127634" expanded="true" signature="3275:3304" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campaign_construction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="543" column="0" lean-forward="false" selection-start-line="543" selection-start-column="0" selection-end-line="543" selection-end-column="0" />
           <folding />
 >>>>>>> a55b248ba605792eff8d177b5cc419c7a263f41d
         </state>
@@ -828,6 +936,18 @@
         <state relative-caret-position="-225">
           <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="36" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campaign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="225" column="32" lean-forward="false" selection-start-line="225" selection-start-column="32" selection-end-line="225" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
