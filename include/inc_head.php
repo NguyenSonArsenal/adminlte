@@ -15,7 +15,7 @@
 folder instead of downloading all of them to reduce the load. -->
 
 <!-- Style sidebar -->
-<link rel="stylesheet" href="dist/css/sidebar.css">
+<link rel="stylesheet" href="dist/css/inc_.css">
 
 <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 <!-- Morris chart -->

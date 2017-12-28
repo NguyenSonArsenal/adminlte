@@ -13,19 +13,30 @@
 .wrapper .content .row .col-md-12 .box .box-header .filter .advance_filter > a:hover {
   color: #f66f00;
 }
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > thead > tr > th {
+  text-align: center;
+}
 .wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td {
+  text-align: center;
   vertical-align: middle;
 }
-.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .text-data .name_web {
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .channel-info {
+  text-align: left;
+}
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .channel-info > b {
   font-size: 16px;
 }
-.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .text-data .des-web {
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .channel-info > span {
+  display: block;
   font-size: 11px;
+  color: #212121;
+  margin: 4px 0 -2px 0;
+  font-weight: bold;
 }
-.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .text-data .time-update {
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .channel-info > small {
   font-size: 9px;
 }
-.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .text-data .time-update > a {
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .channel-info > small > a {
   color: #33b5e5;
 }
 .wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .load-more {
@@ -52,7 +63,7 @@
 .wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .status {
   text-align: center;
 }
-.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .status > small {
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .status .no-link-web {
   color: #9e9e9e;
   font-size: 13px;
 }

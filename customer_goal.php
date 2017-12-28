@@ -31,34 +31,22 @@ $menuActive = 'customerGoal';
                     <div class="box box-primary">
 
                         <!-- Search and Filter -->
-                        <div class="box-header with-border">
-                            <div class="row filter">
-                                <div class="col-md-9 searchbox">
-                                    <form action="" class="form-inline">
-                                        <input type="text" class="form-control" placeholder="Search">
-                                        <div class="form-group">
-                                            <button class="btn btn-primary">
-                                                <i class="fa fa-search-minus" aria-hidden="true"></i>
-                                                Search
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="status col-md-3">
-                                    <select class="form-control" id="sel1">
-                                        <option>Sắp xếp theo mới nhất</option>
-                                        <option>Sắp xếp theo cũ nhất</option>
-                                        <option>Sắp xếp theo Tỉ lệ chuyển đổi</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
+                        <?php include 'include/inc_search_filter.php' ?>
                         <!-- End Search and Filter -->
 
                         <!-- data -->
                         <div class="box-body no-padding">
                             <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped dataTable">
+                                <table class="table table-hover table-striped dataTable table-bordered">
+                                    <thead>
+                                        <tr>
+                                        <th><input type="checkbox"></th>
+                                        <th>Thông tin</th>
+                                        <th>Nhóm khách hàng</th>
+                                        <th>Độ tuổi</th>
+                                        <th>Vị trí địa lý</th>
+                                    </tr>
+                                    </thead>
                                     <tbody>
                                         <tr>
                                             <td>
@@ -69,14 +57,12 @@ $menuActive = 'customerGoal';
                                                 </div>
                                             </td>
                                             <td>
-                                                <div class="text-data">
-                                                    <b class="name-web">VnExpress</b>
-                                                    <br>
-                                                    <b class="des-web">Kênh thông tin</b>
-                                                    <br>
-                                                    <small class="time-update">
-                                                        Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a-link" href="#">(Cập nhật ngay)</a></small>
+                                                <div class="info">
+                                                    <b>VnExpress</b>(123)
+                                                    <span>Kênh thông tin</span>
+                                                    <small>Đã cập nhật 24/12/2017 | 07:42
+                                                        <a class="a-link" href="#">Cap nhat ngay</a>
+                                                    </small>
                                                 </div>
                                             </td>
                                             <td>
@@ -98,163 +84,56 @@ $menuActive = 'customerGoal';
                                                 <b>Hà Nội, TP. Hồ Chí minh</b>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <label>
-                                                        <input type="checkbox">
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="text-data">
-                                                    <b class="name-web">VnExpress</b>
-                                                    <br>
-                                                    <b class="des-web">Kênh thông tin</b>
-                                                    <br>
-                                                    <small class="time-update">
-                                                        Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                                </a>
-                                                <span class="not-bold">Chưa tham gia Chiến dịch</span>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                                </a>
-                                                <b>20-35</b>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                </a>
-                                                <b>Hà Nội, TP. Hồ Chí minh</b>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <label>
-                                                        <input type="checkbox">
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="text-data">
-                                                    <b class="name-web">VnExpress</b>
-                                                    <br>
-                                                    <b class="des-web">Kênh thông tin</b>
-                                                    <br>
-                                                    <small class="time-update">
-                                                        Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                                </a>
-                                                <span class="bold">Đã tham gia một chiến dịch</span>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                                </a>
-                                                <b>20-35</b>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                </a>
-                                                <b>Hà Nội, TP. Hồ Chí minh</b>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <label>
-                                                        <input type="checkbox">
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="text-data">
-                                                    <b class="name-web">VnExpress</b>
-                                                    <br>
-                                                    <b class="des-web">Kênh thông tin</b>
-                                                    <br>
-                                                    <small class="time-update">
-                                                        Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                                </a>
-                                                <span class="bold">Đã tham gia một chiến dịch</span>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                                </a>
-                                                <b>20-35</b>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                </a>
-                                                <b>Hà Nội, TP. Hồ Chí minh</b>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div>
-                                                    <label>
-                                                        <input type="checkbox">
-                                                    </label>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <div class="text-data">
-                                                    <b class="name-web">VnExpress</b>
-                                                    <br>
-                                                    <b class="des-web">Kênh thông tin</b>
-                                                    <br>
-                                                    <small class="time-update">
-                                                        Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                                </a>
-                                                <span class="not-bold">Chưa tham gia một chiến dịch</span>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                                </a>
-                                                <b>20-35</b>
-                                            </td>
-                                            <td>
-                                                <a href="javascipt:void(0)">
-                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                </a>
-                                                <b>Hà Nội, TP. Hồ Chí minh</b>
-                                            </td>
-                                        </tr>
+
+                                        <?php for($i=0; $i<5; $i++) { ?>
+                                            <tr>
+                                                <td>
+                                                    <div>
+                                                        <label>
+                                                            <input type="checkbox">
+                                                        </label>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <div class="info">
+                                                        <b>VnExpress</b>(123)
+                                                        <span>Kênh thông tin</span>
+                                                        <small>Đã cập nhật 24/12/2017 | 07:42
+                                                            <a class="a-link" href="#">Cap nhat ngay</a>
+                                                        </small>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a href="javascipt:void(0)">
+                                                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                                    </a>
+                                                    <span class="not-bold">Chưa tham gia Chiến dịch</span>
+                                                </td>
+                                                <td>
+                                                    <a href="javascipt:void(0)">
+                                                        <i class="fa fa-venus-mars" aria-hidden="true"></i>
+                                                    </a>
+                                                    <b>20-35</b>
+                                                </td>
+                                                <td>
+                                                    <a href="javascipt:void(0)">
+                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    </a>
+                                                    <b>Hà Nội, TP. Hồ Chí minh</b>
+                                                </td>
+                                            </tr>
+                                        <?php } ?>
+
                                     </tbody>
                                 </table>
                                 <!-- /.table -->
                             </div>
                             <!-- /.mail-box-messages -->
+
+                            <!-- Paginate -->
+                            <?php include 'include/inc_paginate.php' ?>
+                            <!-- End paginate -->
+
                         </div>
                         <!-- end data -->
                     </div>

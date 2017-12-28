@@ -27,6 +27,7 @@ $menuActive = 'campaign';
                 <!-- /.col -->
                 <div class="col-md-12">
                     <div class="box box-primary">
+<<<<<<< HEAD
                         <div class="box-header with-border">
                             <div class="filter">
                                 <div class="searchbox pull-left">
@@ -49,6 +50,13 @@ $menuActive = 'campaign';
                                 </div>
                             </div>
                         </div>
+=======
+
+                        <!-- Search and Filter -->
+                        <?php include 'include/inc_search_filter.php' ?>
+                        <!-- End Search and Filter -->
+
+>>>>>>> f364b8f10f4d1df246ba5b370bda06b5e3a0b999
 
                         <div class="box-body no-padding">
                             <div class="table-responsive mailbox-messages">

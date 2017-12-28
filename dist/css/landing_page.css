@@ -36,21 +36,6 @@
 .wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics > a:hover {
   text-decoration: underline;
 }
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .icon-copy {
-  font-size: 18px;
-}
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .paginate_page {
-  margin: 20px 10px;
-}
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .paginate_page .dataTables_info {
-  position: relative;
-  top: 6px;
-}
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .paginate_page .dataTables_paginate .pagination {
-  margin: 0px;
-  position: relative;
-  left: -23px;
-}
 
 /*Modal*/
 .wrapper #modalForDraff .modal-dialog .modal-content .modal-body .b_publish_title .left {
