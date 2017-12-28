@@ -9,22 +9,20 @@ $menuActive = 'campaign';
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
-    <?php include 'include/inc_header.php' ?>
 
+    <?php include 'include/inc_header.php' ?>
     <?php include 'include/inc_sidebar.php' ?>
 
     <div class="content-wrapper">
         <section class="content-header">
             <h1 class="pull-left">Danh sách chiến dịch</h1>
             <a href="/campaign_construction.php" class="btn btn-warning pull-right">
-                <i class="fa fa-plus" aria-hidden="true"></i>
-                Xây dựng chiến dịch</a>
+                <i class="fa fa-plus" aria-hidden="true"></i> Xây dựng chiến dịch</a>
             <div class="clearfix"></div>
         </section>
 
         <section class="content">
             <div class="row">
-                <!-- /.col -->
                 <div class="col-md-12">
                     <div class="box box-primary">
 
@@ -38,18 +36,14 @@ $menuActive = 'campaign';
                                     <label class="col-sm-2" style="width: 130px; line-height: 35px;">Ngày bắt đầu* :</label>
                                     <div class="col-sm-2">
                                         <div class="input-group date ">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </div>
+                                            <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                                             <input type="text" class="form-control pull-left datepicker">
                                         </div>
                                     </div>
                                     <label for="" class="col-sm-2" style="width: 130px; line-height: 35px;">Ngày kết thúc* :</label>
                                     <div class="col-sm-2">
                                         <div class="input-group date ">
-                                            <div class="input-group-addon">
-                                                <i class="fa fa-calendar"></i>
-                                            </div>
+                                            <div class="input-group-addon"><i class="fa fa-calendar"></i></div>
                                             <input type="text" class="form-control datepicker">
                                         </div>
                                     </div>
@@ -91,13 +85,9 @@ $menuActive = 'campaign';
                                                 </a>
                                             </td>
                                         </tr>
-                                        <?php
-                                    }
-                                    ?>
+                                    <?php } ?>
                                     </tbody>
                                 </table>
-                                <!-- /.table -->
-
                             </div>
 
                             <div class="paginate_page">
@@ -107,9 +97,7 @@ $menuActive = 'campaign';
                                 <div class="dataTables_paginate paging_simple_numbers" id="example2_paginate">
                                     <ul class="pagination pull-right">
                                         <li class="paginate_button previous disabled" id="example2_previous">
-                                            <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0">
-                                                Previous
-                                            </a>
+                                            <a href="#" aria-controls="example2" data-dt-idx="0" tabindex="0"> Previous </a>
                                         </li>
                                         <li class="paginate_button active">
                                             <a href="#" aria-controls="example2" data-dt-idx="1" tabindex="0">1</a>
