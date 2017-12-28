@@ -14,15 +14,13 @@
 <script src="bower_components/fastclick/lib/fastclick.js"></script>
 <!-- boostrap toggle -->
 <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-
 <!-- noUiSlider -->
 <script src="bower_components/noUiSlider/nouislider.min.js"></script>
-
 <!-- Select2 -->
 <script src="bower_components/select2/dist/js/select2.full.min.js"></script>
-
 <script src="dist/js/adminlte.min.js"></script>
 <script src="dist/js/demo.js"></script>
+<script src="plugins/iCheck/icheck.min.js"></script>
 
 <script>
     $(function () {
@@ -35,10 +33,10 @@
             string = '';
             $value = $(this).attr('data-content');
             var html = $value;
-            string  = '<div class="box-item" style="width: 100%;margin-bottom: 10px;">\n' +
+            string = '<div class="box-item" style="width: 100%;margin-bottom: 10px;">\n' +
                 '                                            <div class=\'col-md-4\' style=\'margin-left: -15px;\'>\n' +
-                '                                                <a class=\'remove-val btn btn-xs btn-block btn-social btn-'+$value+' pull-right\' style=\'height: 30px; line-height: 25px; \'>\n' +
-                '                                                    <i class=\'fa fa-'+$value+'\' style="line-height: 30px;"></i> '+$value+' <i class=\'delete-val fa fa-times pull-right\' style=\'line-height: 25px;\'></i>\n' +
+                '                                                <a class=\'remove-val btn btn-xs btn-block btn-social btn-' + $value + ' pull-right\' style=\'height: 30px; line-height: 25px; \'>\n' +
+                '                                                    <i class=\'fa fa-' + $value + '\' style="line-height: 30px;"></i> ' + $value + ' <i class=\'delete-val fa fa-times pull-right\' style=\'line-height: 25px;\'></i>\n' +
                 '                                                </a>\n' +
                 '                                            </div>\n' +
                 '                                            <div class=\'col-md-5\'>\n' +
@@ -53,12 +51,12 @@
             $("#append-val").append(string);
             $("#modal_add_route").modal('hide');
         });
-        $(document).on('click','.delete-val', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var $this = $(this);
-        $this.parents('div.box-item').remove();
+        $(document).on('click', '.delete-val', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var $this = $(this);
+            $this.parents('div.box-item').remove();
+        });
     });
-    });
+
 </script>
-<script src="plugins/iCheck/icheck.min.js"></script>

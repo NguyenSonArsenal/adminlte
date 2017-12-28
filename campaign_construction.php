@@ -111,7 +111,7 @@ $menuActive = 'campaignConstruction';
                                         </div>
                                     </div>
                                     <div class="col-md-3">
-                                        <input type="text" class="form-control pull-left" placeholder="100.000" style="width:100px;text-align:right;">
+                                        <input type="text" class="form-control pull-left" placeholder="100.000" style="width:100px;text-align:right;margin-right: 10px">
                                         <select class="form-control pull-left" style="width:80px;text-align:right;">
                                             <option>VND</option>
                                             <option>USD</option>
@@ -187,6 +187,7 @@ $menuActive = 'campaignConstruction';
                 </div>
             </div>
         </div>
+        <!-- End Modal them kenh -->
 
         <!-- Modal them san pham moi -->
         <div id="modal_add_product" class="modal fade" role="dialog">
@@ -212,33 +213,37 @@ $menuActive = 'campaignConstruction';
                             <div class="col-md-8">
                                 <form class="form-horizontal" action="">
                                     <div class="form-group">
-                                        <label class="control-label col-sm-4 a_ccamp_field_title">Tên Sản phẩm* :</label>
+                                        <label class="control-label col-sm-4">Tên Sản phẩm* :</label>
                                         <div class="col-sm-8">
-                                            <input type="email" class="form-control" name="">
+                                            <input type="text" class="form-control" name="" maxlength="50">
+                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label col-sm-4 a_ccamp_field_title">Mã Sản phẩm :</label>
+                                        <label class="control-label col-sm-4">Mã Sản phẩm :</label>
                                         <div class="col-sm-8">
-                                            <input type="email" class="form-control" name="">
+                                            <input type="text" class="form-control" name="" maxlength="10">
+                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label col-sm-4 a_ccamp_field_title">Nhà cung cấp :</label>
+                                        <label class="control-label col-sm-4">Nhà cung cấp :</label>
                                         <div class="col-sm-8">
-                                            <input type="email" class="form-control" name="">
+                                            <input type="text" class="form-control" name="" maxlength="50">
+                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label col-sm-4 a_ccamp_field_title">Giá thành :</label>
+                                        <label class="control-label col-sm-4">Giá thành :</label>
                                         <div class="col-sm-8">
-                                            <input type="email" class="form-control" name="">
+                                            <input type="text" class="form-control" name="">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label col-sm-4 a_ccamp_field_title">Mô tả :</label>
+                                        <label class="control-label col-sm-4">Mô tả :</label>
                                         <div class="col-sm-8">
-                                            <input type="email" class="form-control" name="">
+                                            <input type="text" class="form-control" name="" maxlength="250">
+                                            <span id="rchars" style="float: right; font-size: 11px; height: 1px;"></span>
                                         </div>
                                     </div>
                                 </form>
@@ -252,6 +257,7 @@ $menuActive = 'campaignConstruction';
                 </div>
             </div>
         </div>
+        <!-- End Modal them san pham moi -->
 
         <!-- Modal them khach hang muc tieu-->
         <div id="modal-add-customer-goal" class="modal fade" role="dialog">
@@ -327,6 +333,7 @@ $menuActive = 'campaignConstruction';
 
             </div>
         </div>
+        <!-- End Modal them khach hang muc tieu-->
 
         <!-- Modal them khach hang muc tieu-->
         <div id="modal_history_customer_goal" class="modal fade" role="dialog">
@@ -527,6 +534,7 @@ $menuActive = 'campaignConstruction';
 
             </div>
         </div>
+        <!-- End Modal them khach hang muc tieu-->
 
     </div>
     <!-- ./wrapper -->
