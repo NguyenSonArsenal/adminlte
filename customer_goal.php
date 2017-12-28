@@ -226,7 +226,5 @@ $menuActive = 'customerGoal';
 
 <?php include 'include/inc_js.php'?>
 
-<script src="dist/js/customer_goal.js"></script>
-
 </body>
 </html>

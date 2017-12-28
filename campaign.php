@@ -16,7 +16,7 @@ $menuActive = 'campaign';
     <div class="content-wrapper">
         <section class="content-header">
             <h1 class="pull-left">Danh sách chiến dịch</h1>
-            <a href="./index.php" class="btn btn-warning pull-right">
+            <a href="./campaign_construction.php" class="btn btn-warning pull-right">
                 <i class="fa fa-plus" aria-hidden="true"></i>
                 Xây dựng chiến dịch</a>
             <div class="clearfix"></div>

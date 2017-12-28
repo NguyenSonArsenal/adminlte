@@ -24,6 +24,8 @@
 <script src="dist/js/adminlte.min.js"></script>
 <script src="dist/js/demo.js"></script>
 
+<script src="plugins/iCheck/icheck.min.js"></script>
+
 <script>
     $(function () {
         $(".datepicker").datepicker();
@@ -54,11 +56,68 @@
             $("#modal_add_route").modal('hide');
         });
         $(document).on('click','.delete-val', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var $this = $(this);
-        $this.parents('div.box-item').remove();
+            e.preventDefault();
+            e.stopPropagation();
+            var $this = $(this);
+            $this.parents('div.box-item').remove();
+        });
     });
+
+    // customer_goal page modal
+    $(document).ready(function() {
+
+        // slider-age
+        var limitSlider = document.getElementById('slider-age');
+
+        noUiSlider.create(limitSlider, {
+            start: [16, 50], // 2 point to start
+            connect: true, // control the (green) bar between the handles
+            tooltips: true,
+            step: 1,
+            format: {
+                from: function(value) {
+                    return parseInt(value);
+                },
+                to: function(value) {
+                    return parseInt(value);
+                }
+            },
+            range: {
+                'min': 0,
+                'max': 65
+            }
+        });
+
+        // Select2
+        $("#e1").select2();
+
     });
+
+    // product page modal
+    // preview image before upload product modal
+    $(function () {
+        $('#btn-to-up-file').click(function () {
+            console.log('clicked');
+            function readURL(input) {
+
+                console.log(input.files[0]);
+
+                if (input.files && input.files[0]) {
+                    var reader = new FileReader();
+
+                    reader.onload = function(e) {
+                        $('#blah').attr('src', e.target.result);
+                    };
+
+                    reader.readAsDataURL(input.files[0]);
+                }
+            }
+
+            $(".preview-image").change(function() {
+                readURL(this);
+            });
+        })
+    })
+
 </script>
-<script src="plugins/iCheck/icheck.min.js"></script>
+

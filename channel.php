@@ -36,7 +36,7 @@ $menuActive = 'channel';
                                     <form action="" class="form-inline">
                                         <input type="text" class="form-control" placeholder="Search">
                                         <div class="form-group">
-                                            <button class="btn btn-success">
+                                            <button class="btn btn-primary">
                                                 <i class="fa fa-search-minus" aria-hidden="true"></i>
                                                 Search
                                             </button>
