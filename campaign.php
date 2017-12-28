@@ -1,11 +1,11 @@
 <?php
-$menuActive = 'chiendich';
+$menuActive = 'campaign';
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <?php include 'include/inc_head.php'?>
-    <link rel="stylesheet" href="./dist/css/chiendich.css">
+    <link rel="stylesheet" href="dist/css/campaign.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

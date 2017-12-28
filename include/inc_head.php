@@ -28,9 +28,8 @@ folder instead of downloading all of them to reduce the load. -->
 <link rel="stylesheet" href="bower_components/bootstrap-daterangepicker/daterangepicker.css">
 <!-- boostrap toggle -->
 <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
-
+<!-- noUiSlider -->
 <link rel="stylesheet" href="bower_components/noUiSlider/nouislider.min.css">
-
 <!-- select2 -->
 <link rel="stylesheet" href="bower_components/select2/dist/css/select2.min.css">
 
