@@ -24,5 +24,10 @@ $(document).ready(function() {
             'max': 65
         }
     });
+
+
+    // Select2 modal
+    $("#e1").select2();
+
 });
 

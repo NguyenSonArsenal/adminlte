@@ -18,6 +18,9 @@
 <!-- noUiSlider -->
 <script src="bower_components/noUiSlider/nouislider.min.js"></script>
 
+<!-- Select2 -->
+<script src="bower_components/select2/dist/js/select2.full.min.js"></script>
+
 <script src="dist/js/adminlte.min.js"></script>
 <script src="dist/js/demo.js"></script>
 

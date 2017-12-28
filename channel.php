@@ -382,7 +382,7 @@
                     <h4 class="modal-title"><b>Thêm Kênh quảng cáo mới</b></h4>
                 </div>
                 <div class="row modal-body">
-                    <div class="col-md-5">
+                    <div class="col-md-4">
                         <div class="lbl-logo-channel"><b>Logo Kênh</b></div>
                         <div class="preview-image">
                             <a href="">
@@ -390,7 +390,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-8">
                         <table>
                             <tbody>
                                 <tr>
