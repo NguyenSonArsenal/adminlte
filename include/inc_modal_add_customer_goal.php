@@ -62,7 +62,7 @@
                     <i class="fa fa-remove" aria-hidden="true"></i>
                     Hủy
                 </button>
-                <button type="button" class="btn btn-success" data-dismiss="modal">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">
                     <i class="fa fa-check" aria-hidden="true"></i>
                     Lưu
                 </button>

@@ -45,6 +45,7 @@ $menuActive = 'customerGoal';
                                         <th>Nhóm khách hàng</th>
                                         <th>Độ tuổi</th>
                                         <th>Vị trí địa lý</th>
+                                        <th>Thao tác</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -83,6 +84,12 @@ $menuActive = 'customerGoal';
                                                 </a>
                                                 <b>Hà Nội, TP. Hồ Chí minh</b>
                                             </td>
+                                            <td>
+                                                <a class="btn btn-primary btn-xs">
+                                                    <i class="fa fa-edit"></i>
+                                                    Chỉnh sửa
+                                                </a>
+                                            </td>
                                         </tr>
 
                                         <?php for($i=0; $i<5; $i++) { ?>
@@ -120,6 +127,12 @@ $menuActive = 'customerGoal';
                                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
                                                     </a>
                                                     <b>Hà Nội, TP. Hồ Chí minh</b>
+                                                </td>
+                                                <td>
+                                                    <a class="btn btn-primary btn-xs">
+                                                        <i class="fa fa-edit"></i>
+                                                        Chỉnh sửa
+                                                    </a>
                                                 </td>
                                             </tr>
                                         <?php } ?>

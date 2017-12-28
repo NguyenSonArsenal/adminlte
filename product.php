@@ -64,7 +64,6 @@ $menuActive = 'product';
                                                 <b>xe may </b>(123)
                                                 <span>san pham hot</span>
                                                 <small>Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a_link" href="#">Cap nhat ngay</a>
                                                 </small>
                                             </div>
                                         </td>
@@ -89,6 +88,10 @@ $menuActive = 'product';
                                             </div>
                                         </td>
                                         <td>
+                                            <a class="btn btn-primary btn-xs">
+                                                <i class="fa fa-edit"></i>
+                                                Chỉnh sửa
+                                            </a>
                                             <a class="btn btn-danger btn-xs">
                                                 <i class="fa-trash fa icon-delete"></i>
                                                 Xóa
@@ -110,7 +113,6 @@ $menuActive = 'product';
                                                     <b>xe may </b>(123)
                                                     <span>san pham hot</span>
                                                     <small>Đã cập nhật 24/12/2017 | 07:42
-                                                        <a class="a_link" href="#">Cap nhat ngay</a>
                                                     </small>
                                                 </div>
                                             </td>
@@ -135,6 +137,10 @@ $menuActive = 'product';
                                                 </div>
                                             </td>
                                             <td>
+                                                <a class="btn btn-primary btn-xs">
+                                                    <i class="fa fa-edit"></i>
+                                                    Chỉnh sửa
+                                                </a>
                                                 <a class="btn btn-danger btn-xs">
                                                     <i class="fa-trash fa icon-delete"></i>
                                                     Xóa

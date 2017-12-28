@@ -99,7 +99,6 @@ $menuActive = 'channel';
                                                 <b>VnExpress</b>(123)
                                                 <span>Kênh thông tin</span>
                                                 <small>Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">Cap nhat ngay</a>
                                                 </small>
                                             </div>
                                         </td>
@@ -135,6 +134,10 @@ $menuActive = 'channel';
                                             </div>
                                         </td>
                                         <td>
+                                            <a class="btn btn-primary btn-xs">
+                                                <i class="fa fa-edit"></i>
+                                                Chỉnh sửa
+                                            </a>
                                             <a class="btn btn-danger btn-xs">
                                                 <i class="fa-trash fa"></i>
                                                 Xóa
@@ -158,9 +161,7 @@ $menuActive = 'channel';
                                                     <div class="channel-info">
                                                         <b>VnExpress</b>(123)
                                                         <span>Kênh thông tin</span>
-                                                        <small>Đã cập nhật 24/12/2017 | 07:42
-                                                            <a class="a-link" href="#">Cap nhat ngay</a>
-                                                        </small>
+                                                        <small>Đã cập nhật 24/12/2017 | 07:42</small>
                                                     </div>
                                                 </td>
                                                 <td>
@@ -195,6 +196,10 @@ $menuActive = 'channel';
                                                     </div>
                                                 </td>
                                                 <td>
+                                                    <a class="btn btn-primary btn-xs">
+                                                        <i class="fa fa-edit"></i>
+                                                        Chỉnh sửa
+                                                    </a>
                                                     <a class="btn btn-danger btn-xs">
                                                         <i class="fa-trash fa"></i>
                                                         Xóa

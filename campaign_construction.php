@@ -208,186 +208,67 @@ $menuActive = 'campaignConstruction';
                         <h4 class="modal-title">Lịch sử khách hàng mục tiêu</h4>
                     </div>
                     <div class="modal-body">
+
                         <div class="box-body no-padding">
                             <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped dataTable">
+                                <table class="table table-hover table-striped dataTable table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Thong tin website</th>
+                                            <th>Nhóm khách hàng</th>
+                                            <th>Độ tuổi</th>
+                                            <th>Vị trí địa lý</th>
+                                            <th>Thao tác</th>
+                                        </tr>
+                                    </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                            </a>
-                                            <span class="bold">Đã tham gia một chiến dịch</span>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                            </a>
-                                            <b>20-35</b>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            </a>
-                                            <b>Hà Nội, TP. Hồ Chí minh</b>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-success btn-xs">Chọn</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                            </a>
-                                            <span class="not-bold">Chưa tham gia Chiến dịch</span>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                            </a>
-                                            <b>20-35</b>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            </a>
-                                            <b>Hà Nội, TP. Hồ Chí minh</b>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-success btn-xs">Chọn</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                            </a>
-                                            <span class="bold">Đã tham gia một chiến dịch</span>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                            </a>
-                                            <b>20-35</b>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            </a>
-                                            <b>Hà Nội, TP. Hồ Chí minh</b>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-success btn-xs">Chọn</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                            </a>
-                                            <span class="bold">Đã tham gia một chiến dịch</span>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                            </a>
-                                            <b>20-35</b>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            </a>
-                                            <b>Hà Nội, TP. Hồ Chí minh</b>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-success btn-xs">Chọn</button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="text-data">
-                                                <b class="name-web">VnExpress</b>
-                                                <br>
-                                                <b class="des-web">Kênh thông tin</b>
-                                                <br>
-                                                <small class="time-update">
-                                                    Đã cập nhật 24/12/2017 | 07:42
-                                                    <a class="a-link" href="#">(Cập nhật ngay)</a></small>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                            </a>
-                                            <span class="not-bold">Chưa tham gia một chiến dịch</span>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                            </a>
-                                            <b>20-35</b>
-                                        </td>
-                                        <td>
-                                            <a href="javascipt:void(0)">
-                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            </a>
-                                            <b>Hà Nội, TP. Hồ Chí minh</b>
-                                        </td>
-                                        <td>
-                                            <button type="button" class="btn btn-success btn-xs">Chọn</button>
-                                        </td>
-                                    </tr>
+
+                                        <?php for($i=0; $i<5; $i++) { ?>
+                                            <tr>
+                                                <td>
+                                                    <div class="text-data">
+                                                        <b>VnExpress</b>(123)
+                                                        <span>Kênh thông tin</span>
+                                                        <small>Đã cập nhật 24/12/2017 | 07:42
+                                                            <a class="a-link" href="#">Cap nhat ngay</a>
+                                                        </small>
+                                                    </div>
+                                                </td>
+                                                <td>
+                                                    <a href="javascipt:void(0)">
+                                                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                                    </a>
+                                                    <span class="not-bold">Chưa tham gia một chiến dịch</span>
+                                                </td>
+                                                <td>
+                                                    <a href="javascipt:void(0)">
+                                                        <i class="fa fa-venus-mars" aria-hidden="true"></i>
+                                                    </a>
+                                                    <b>20-35</b>
+                                                </td>
+                                                <td>
+                                                    <a href="javascipt:void(0)">
+                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    </a>
+                                                    <b>Hà Nội, TP. Hồ Chí minh</b>
+                                                </td>
+                                                <td>
+                                                    <button type="button" class="btn btn-primary btn-sm">Chọn</button>
+                                                </td>
+                                            </tr>
+                                        <?php } ?>
+
                                     </tbody>
                                 </table>
                                 <!-- /.table -->
                             </div>
                             <!-- /.mail-box-messages -->
                         </div>
+
+                        <!-- Paginate -->
+                        <?php include 'include/inc_paginate.php' ?>
+                        <!-- End paginate -->
+
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -395,6 +276,7 @@ $menuActive = 'campaignConstruction';
                 </div>
 
             </div>
+
         </div>
         <!-- End Modal lich su them khach hang muc tieu-->
 

@@ -14,9 +14,6 @@
 <!-- AdminLTE Skins. Choose a skin from the css/skins
 folder instead of downloading all of them to reduce the load. -->
 
-<!-- Style sidebar -->
-<link rel="stylesheet" href="dist/css/inc_.css">
-
 <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
 <!-- Morris chart -->
 <link rel="stylesheet" href="bower_components/morris.js/morris.css">
@@ -46,3 +43,6 @@ folder instead of downloading all of them to reduce the load. -->
       rel="stylesheet">
 <!-- Google Font -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+
+<!-- Style inc -->
+<link rel="stylesheet" href="dist/css/inc_.css">

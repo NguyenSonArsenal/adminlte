@@ -16,7 +16,7 @@ $menuActive = 'campaign';
     <div class="content-wrapper">
         <section class="content-header">
             <h1 class="pull-left">Danh sách chiến dịch</h1>
-            <a href="/campaign_construction.php" class="btn btn-warning pull-right">
+            <a href="campaign_construction.php" class="btn btn-warning pull-right">
                 <i class="fa fa-plus" aria-hidden="true"></i>
                 Xây dựng chiến dịch</a>
             <div class="clearfix"></div>
@@ -57,14 +57,14 @@ $menuActive = 'campaign';
                                 <div class="clearfix"></div>
                                 <table class="table table-hover table-striped table-bordered">
                                     <thead>
-                                    <tr>
-                                        <th>Tên chiến dịch</th>
-                                        <th>Thời gian</th>
-                                        <th>Sản phẩm</th>
-                                        <th>Ngày cập nhật</th>
-                                        <th>Chi phí</th>
-                                        <th>Thao tác</th>
-                                    </tr>
+                                        <tr>
+                                            <th>Tên chiến dịch</th>
+                                            <th>Thời gian</th>
+                                            <th>Sản phẩm</th>
+                                            <th>Ngày cập nhật</th>
+                                            <th>Chi phí</th>
+                                            <th>Thao tác</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
                                     <?php for ($i = 0; $i < 10; $i++) { ?>
@@ -83,9 +83,9 @@ $menuActive = 'campaign';
                                             <td>500,000 VND / Ngày
                                             </td>
                                             <td>
-                                                <a class="btn btn-success btn-xs"><i class="fa fa-eye"></i> Chi tiết
+                                                <a class="btn btn-primary btn-xs"><i class="fa fa-edit"></i> Chỉnh sửa
                                                 </a>
-                                                <a class="btn btn-info btn-xs"><i class="fa fa-edit"></i> Chỉnh sửa
+                                                <a class="btn btn-info btn-xs"><i class="fa fa-eye"></i> Chi tiết
                                                 </a>
                                                 <a class="btn btn-danger btn-xs"><i class="fa-trash fa icon-delete"></i> Xóa
                                                 </a>

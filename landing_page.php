@@ -87,11 +87,11 @@ $menuActive = 'landingPage';
                                                 </div>
                                             </td>
                                             <td>
-                                                <a class="btn btn-info btn-xs">
+                                                <a class="btn btn-primary btn-xs">
                                                     <i class="fa fa-edit"></i>
                                                     Chỉnh sửa
                                                 </a>
-                                                <a class="btn btn-primary btn-xs">
+                                                <a class="btn btn-info btn-xs">
                                                     <i class="fa-copy fa"></i>
                                                     Copy
                                                 </a>
@@ -139,11 +139,11 @@ $menuActive = 'landingPage';
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <a class="btn btn-info btn-xs">
+                                                    <a class="btn btn-primary btn-xs">
                                                         <i class="fa fa-edit"></i>
                                                         Chỉnh sửa
                                                     </a>
-                                                    <a class="btn btn-primary btn-xs">
+                                                    <a class="btn btn-info btn-xs">
                                                         <i class="fa-copy fa"></i>
                                                         Copy
                                                     </a>

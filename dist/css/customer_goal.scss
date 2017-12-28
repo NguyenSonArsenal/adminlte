@@ -44,12 +44,6 @@
                                                     }
                                                 }
                                             }
-                                            >a {
-                                                .fa{
-                                                    margin-right: 4px;
-                                                    color: #212121;
-                                                }
-                                            }
                                             .not-bold {
                                                 color: #9e9e9e;
                                                 font-style: italic;
@@ -82,11 +76,9 @@
     height: 8px;
 }
 
-.noUi-connect {
-    background-color: #008d4c;
-}
 
-// select2 to choose address
+
+// lib select2 to choose address
 .select2 {
     .selection {
         .select2-selection--multiple {
