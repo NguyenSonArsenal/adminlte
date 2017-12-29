@@ -6,7 +6,7 @@ $menuActive = 'product';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/scss/product.css">
+    <link rel="stylesheet" href="./dist/css/product.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

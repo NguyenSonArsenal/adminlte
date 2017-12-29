@@ -45,4 +45,4 @@ folder instead of downloading all of them to reduce the load. -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
 <!-- Style inc -->
-<link rel="stylesheet" href="dist/scss/inc_.css">
+<link rel="stylesheet" href="dist/css/inc_.css">

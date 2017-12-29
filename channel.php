@@ -5,7 +5,7 @@ $menuActive = 'channel';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/scss/channel.css">
+    <link rel="stylesheet" href="./dist/css/channel.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">

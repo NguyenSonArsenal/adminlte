@@ -247,7 +247,6 @@
 }
 .wrapper #modal-add-channel .modal-dialog .modal-content .modal-body .col-md-8 input {
   border: none;
-  font-weight: bold;
   border-bottom: 1px solid #9e9e9e;
   background-color: #fafafa;
   padding: 1px;

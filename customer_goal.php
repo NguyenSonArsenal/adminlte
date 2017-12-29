@@ -6,7 +6,7 @@ $menuActive = 'customerGoal';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/scss/customer_goal.css">
+    <link rel="stylesheet" href="./dist/css/customer_goal.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
