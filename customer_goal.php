@@ -6,7 +6,7 @@ $menuActive = 'customerGoal';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/css/customer_goal.css">
+    <link rel="stylesheet" href="./dist/scss/customer_goal.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -40,7 +40,7 @@ $menuActive = 'customerGoal';
                                 <table class="table table-hover table-striped dataTable table-bordered">
                                     <thead>
                                         <tr>
-                                        <th><input type="checkbox"></th>
+                                        <th><input type="checkbox" id="check-all-checkbox"></th>
                                         <th>Thông tin</th>
                                         <th>Nhóm khách hàng</th>
                                         <th>Độ tuổi</th>

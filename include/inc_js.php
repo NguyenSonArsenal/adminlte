@@ -57,30 +57,35 @@
             string = '';
             $value = $(this).attr('data-content');
             var html = $value;
-            string = '<div class="box-item" style="margin-bottom: 10px;">\n' +
-                '                                            <div class=\'col-md-4\' style=\'margin-left: -15px;\'>\n' +
-                '                                                <a class=\'remove-val btn btn-xs btn-block btn-social btn-' + $value + ' pull-right\' style=\'height: 30px; line-height: 25px; \'>\n' +
-                '                                                    <i class=\'fa fa-' + $value + '\' style="line-height: 30px;"></i> ' + $value + ' <i class=\'delete-val fa fa-times pull-right\' style=\'line-height: 25px;\'></i>\n' +
-                '                                                </a>\n' +
-                '                                            </div>\n' +
-                '                                            <div class=\'col-md-4\'>\n' +
-                '                                                <select class=\'form-control pull-right input-sm\' style=\'width:80px;text-align:right;margin-left:10px;\'>\n' +
-                '                                                    <option>VND</option>\n' +
-                '                                                    <option>USD</option>\n' +
-                '                                                </select>\n' +
-                '                                                <input type=\'text\' class=\'form-control input-sm pull-right\' placeholder=\'100.000\' style=\'width:130px;text-align:right;\'>\n' +
-                '                                            </div>\n' +
-                '                                            <div class="clearfix"></div>\n' +
-                '                                        </div>\n';
+            string ='<div class="item-channel">'+
+                        '<div class="col-md-4 fix-col">' +
+                            '<a class="remove-val btn btn-sm btn-block btn-social btn-google">' +
+                                '<i class="fa fa-google">'+
+                                '</i> google <i class="delete-val fa fa-times pull-right"></i>'+
+                            '</a>'+
+                        '</div>'+
+                        '<div class="col-md-8 fix-col">'+
+                            '<div class="col-md-4">'+
+                                '<input type="text" class="form-control pull-left">'+
+                            '</div>'+
+                        '<div class="col-md-4">'+
+                            '<select class="form-control pull-left">'+
+                                '<option>VND</option>'+
+                                '<option>USD</option>'+
+                            '</select>'+
+                            '</div>'+
+                        '</div>'+
+                    '</div>';
+
             $("#append-val").append(string);
             $("#modal_add_route").modal('hide');
         });
 
-        $(document).on('click', '.delete-val', function (e) {
+        $(document).on('click', '.remove-val', function (e) {
             e.preventDefault();
             e.stopPropagation();
             var $this = $(this);
-            $this.parents('div.box-item').remove();
+            $this.parents('div.item-channel').remove();
         });
     });
 
@@ -139,5 +144,26 @@
             });
         })
     })
+
+
+    // checkall input checkbox
+    $(function () {
+        $('#check-all-checkbox').click(function () {
+            console.log(123);
+            if(this.checked) {
+                // Iterate each checkbox
+                $(':checkbox').each(function() {
+                    this.checked = true;
+                });
+            }
+            else {
+                $(':checkbox').each(function() {
+                    this.checked = false;
+                });
+            }
+        })
+    })
+
+
 
 </script>

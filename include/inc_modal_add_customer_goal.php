@@ -10,17 +10,13 @@
 
             <!-- Modal body-->
             <div class="modal-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <label for="">Tên nhóm khách hàng <span class="color-red">*</span> :</label>
-                    </div>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" name="channel_name">
-                    </div>
+                <div class="form-group">
+                    <label for="" class="lbl-fix">Tên sản phẩm:</label>
+                    <input type="text" class="form-control" name="">
                 </div>
-                <div class="row div_select2">
-                    <div class="col-md-4 "><label for="">Vị trí địa lý :</label></div>
-                    <div class="col-md-8 lbl-address">
+                <div class="form-group div_select2">
+                    <label for="">Vị trí địa lý :</label>
+                    <div class="lbl-address">
                         <select id="e1" multiple="multiple" style="width:100%;">
                             <option>Alabama</option>
                             <option>Alaska</option>
@@ -32,27 +28,24 @@
                         </select>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4"><label for="">Giới tính :</label></div>
-                    <div class="col-md-8">
+                <div class="form-group">
+                    <label for="">Giới tính :</label>
+                    <div>
                         <span class="radio-inline"><input type="radio" name="optradio" checked>Tất cả</span>
                         <span class="radio-inline"><input type="radio" name="optradio">Nam</span>
                         <span class="radio-inline"><input type="radio" name="optradio">Nữ</span>
                         <span class="radio-inline"><input type="radio" name="optradio">Khác</span>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4"><label for="">Độ tuổi :</label></div>
-                    <div class="col-md-8 slider">
-                        <div type="text" class="form-control" id="slider-age" name="description">
-                        </div>
+                <div class="form-group form-margin">
+                    <label for="">Độ tuổi :</label>
+                    <div class="slider">
+                        <div type="text" class="form-control" id="slider-age" name="description"></div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-4"><label for="">Đặc điểm nổi bật :</label></div>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" name="description">
-                    </div>
+                <div class="form-group">
+                    <label for="" class="lbl-fix">Đặc điểm nổi bật:</label>
+                    <input type="text" class="form-control" name="">
                 </div>
             </div>
             <!--End modal body-->

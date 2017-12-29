@@ -35,7 +35,6 @@
                                                     font-size: 11px;
                                                     color: #212121;
                                                     margin: 4px 0 -2px 0;
-                                                    font-weight: bold;
                                                 }
                                                 >small {
                                                     font-size: 9px;
@@ -63,42 +62,4 @@
     }
 }
 
-// noUI to choose age
-.noUi-horizontal .noUi-handle {
-    top: -12px;
-}
 
-.noUi-tooltip {
-    padding: 2px;
-}
-
-.noUi-horizontal {
-    height: 8px;
-}
-
-
-
-// lib select2 to choose address
-.select2 {
-    .selection {
-        .select2-selection--multiple {
-            border: none;
-            background: #fafafa;
-            border-bottom: 1px solid #9e9e9e;
-            border-radius: 0;
-            .select2-selection__rendered {
-                .select2-selection__choice {
-                    background-color: #008d4c;
-                    border-color: #367fa9;
-                    padding: 1px 10px;
-                    color: #fff;
-                    .select2-selection__choice__remove {
-                        color: white;
-                        padding-right: 2px;
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
-}

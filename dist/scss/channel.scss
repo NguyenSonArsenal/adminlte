@@ -50,7 +50,6 @@
                                                     font-size: 11px;
                                                     color: #212121;
                                                     margin: 4px 0 -2px 0;
-                                                    font-weight: bold;
                                                 }
                                                 >small {
                                                     font-size: 9px;
@@ -65,7 +64,7 @@
                                                 .top {
                                                     >a {
                                                         font-size: 15px;
-                                                        color: #000;
+                                                        color: #333;
                                                         >i {
                                                             padding-left: 3px;
                                                         }
@@ -81,8 +80,7 @@
 
                                             .conversion-rate {
                                                 >a {
-                                                    font-size: 15px;
-                                                    color: #000;
+                                                    color: #333;
                                                     >i {
                                                         padding-left: 3px;
                                                     }
@@ -122,68 +120,4 @@
 }
 
 
-/*Modal*/
-.wrapper{
-    #modal-add-channel{
-        .modal-dialog{
-            .modal-content{
-                background-color: #fafafa;
-                .modal-body{
-                    .col-md-4 {
-                        text-align: center;
-                        padding-top: 50px;
-                        .preview-image {
-                            border: 1px dashed #212121;
-                            width: 36px;
-                            display: inline-block;
-                            margin-top: 10px;
-                            > a {
-                                .icon-backup {
-                                    color: #9e9e9e;
-                                    &:hover {
-                                        color: #ff6f00;
-                                    }
-                                }
-                            }
-                            &:hover {
-                                border: 1px solid #ff6f00;
-                                cursor: pointer;
-                            }
-                        }
-                    }
-                    .col-md-8 {
-                        position: relative;
-                        bottom: 11px;
-                        >table {
 
-                            >tbody {
-                                >tr {
-                                    height: 40px;
-                                    font-weight: bold;
-                                    >td {
-                                        padding-right: 15px;
-                                        >label {
-                                            position: relative;
-                                            top: 10px;
-                                            font-weight: bold;
-                                            .color-red {
-                                                color: red;
-                                                font-size: 16px;
-                                            }
-                                        }
-                                        >input {
-                                            border: none;
-                                            border-bottom: 1px solid #9e9e9e;
-                                            background-color: #fafafa;
-                                            width: 110%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }
-}

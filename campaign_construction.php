@@ -7,8 +7,7 @@ $menuActive = 'campaignConstruction';
 <head>
     <?php include 'include/inc_head.php' ?>
 
-    <link rel="stylesheet" href="dist/css/customer_goal.css">
-    <link rel="stylesheet" href="dist/css/campaign_construction.css">
+    <link rel="stylesheet" href="dist/scss/campaign_construction.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -17,7 +16,7 @@ $menuActive = 'campaignConstruction';
 
     <div class="content-wrapper" style="min-height: 1036px;">
         <section class="content-header">
-            <h1 class="pull-left">Danh sách chiến dịch</h1>
+            <h1 class="pull-left">Xây dựng chiến dịch</h1>
             <div class="clearfix"></div>
         </section>
 
@@ -26,9 +25,6 @@ $menuActive = 'campaignConstruction';
                 <!-- /.col -->
                 <div class="col-md-12">
                     <div class="box box-primary">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">...</h3>
-                        </div>
                         <!-- /.box-header -->
                         <!-- form start -->
                         <form class="form-horizontal">
@@ -69,7 +65,7 @@ $menuActive = 'campaignConstruction';
                                                 <span class="fa fa-caret-down"></span></button>
                                             <ul class="dropdown-menu">
                                                 <li>
-                                                    <a href="#" data-toggle="modal" data-target="#modal_add_product">Thêm mới</a>
+                                                    <a href="#" data-toggle="modal" data-target="#modal-add-product">Thêm mới</a>
                                                 </li>
                                                 <li><a href="#">Thêm từ kho</a></li>
                                             </ul>
@@ -99,10 +95,10 @@ $menuActive = 'campaignConstruction';
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Ngân sách dự kiến :</label>
                                     <div class="col-md-9">
-                                        <div class="col-md-4">
+                                        <div class="col-md-4 fix-col">
                                             <div class="radio pull-left" style="margin-right: 10px">
                                                 <label>
-                                                    <input type="radio" name="" id="optionsRadios1" value="option1"> Toàn chiến dịch
+                                                    <input type="radio" name="" id="optionsRadios1" checked value="option1"> Toàn chiến dịch
                                                 </label>
                                             </div>
                                             <div class="radio pull-left">
@@ -111,12 +107,16 @@ $menuActive = 'campaignConstruction';
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-md-4">
-                                            <input type="text" class="form-control pull-left" placeholder="100.000" style="width:130px;text-align:right;margin-right: 10px">
-                                            <select class="form-control pull-left" style="width:80px;text-align:right;">
-                                                <option>VND</option>
-                                                <option>USD</option>
-                                            </select>
+                                        <div class="col-md-8 fix-col">
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control pull-left" placeholder="100.000" style="width:130px;text-align:right;margin-right: 10px">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <select class="form-control pull-left">
+                                                    <option>VND</option>
+                                                    <option>USD</option>
+                                                </select>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -124,31 +124,38 @@ $menuActive = 'campaignConstruction';
                                     <label for="" class="col-md-3 control-label">Kênh quảng cáo :</label>
                                     <div class="col-md-9" id="append-val">
                                         <!-- box list route-->
-
                                         <!-- end box list route-->
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <div class="col-md-offset-3 col-md-8">
-                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal_add_route">
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <a href="#" class="" data-toggle="modal" data-target="#modal_add_route">
                                             <i class="fa fa-plus" aria-hidden="true"></i>
                                             Thêm kênh
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
                             <!-- /.box-body -->
+
+                            <!-- footer modal -->
                             <div class="box-footer">
-                                <button type="submit" class="btn btn-default pull-right" style="margin-left: 10px">
-                                    <i class="fa fa-repeat" aria-hidden="true"></i>
-                                    Tiếp tục
-                                </button>
-                                <button type="submit" class="btn btn-primary pull-right">
-                                    <i class="fa fa-save" aria-hidden="true"></i>
-                                    Lưu và kết thúc
-                                </button>
+                                <div class="row">
+                                    <label class="col-md-3"></label>
+                                    <div class="col-md-8">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="fa fa-save" aria-hidden="true"></i>
+                                            Lưu và kết thúc
+                                        </button>
+                                        <button type="submit" class="btn btn-default" style="margin-left: 10px">
+                                            <i class="fa fa-repeat" aria-hidden="true"></i>
+                                            Tiếp tục
+                                        </button>
+                                    </div>
+                                </div>
+
                             </div>
-                            <!-- /.box-footer -->
+                            <!-- End footer modal -->
                         </form>
                         <!-- /.box-body -->
                     </div>
@@ -158,7 +165,7 @@ $menuActive = 'campaignConstruction';
             </div>
         </section>
 
-        <!-- Modal them kenh -->
+        <!-- Modal chon kenh -->
         <div id="modal_add_route" class="modal fade" role="dialog">
             <div class="modal-dialog" style="width: 400px;">
                 <!-- Modal content-->
@@ -188,7 +195,7 @@ $menuActive = 'campaignConstruction';
                 </div>
             </div>
         </div>
-        <!-- End Modal them kenh -->
+        <!-- End modal chon kenh -->
 
         <!-- Modal them san pham moi -->
         <?php include 'include/inc_modal_add_product.php' ?>
@@ -199,86 +206,7 @@ $menuActive = 'campaignConstruction';
         <!-- End modal add customer goal-->
 
         <!-- Modal them lich su khach hang muc tieu-->
-        <div id="modal_history_customer_goal" class="modal fade" role="dialog">
-            <div class="modal-dialog">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Lịch sử khách hàng mục tiêu</h4>
-                    </div>
-                    <div class="modal-body">
-
-                        <div class="box-body no-padding">
-                            <div class="table-responsive mailbox-messages">
-                                <table class="table table-hover table-striped dataTable table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>Thong tin website</th>
-                                            <th>Nhóm khách hàng</th>
-                                            <th>Độ tuổi</th>
-                                            <th>Vị trí địa lý</th>
-                                            <th>Thao tác</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-
-                                        <?php for($i=0; $i<5; $i++) { ?>
-                                            <tr>
-                                                <td>
-                                                    <div class="text-data">
-                                                        <b>VnExpress</b>(123)
-                                                        <span>Kênh thông tin</span>
-                                                        <small>Đã cập nhật 24/12/2017 | 07:42
-                                                            <a class="a-link" href="#">Cap nhat ngay</a>
-                                                        </small>
-                                                    </div>
-                                                </td>
-                                                <td>
-                                                    <a href="javascipt:void(0)">
-                                                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
-                                                    </a>
-                                                    <span class="not-bold">Chưa tham gia một chiến dịch</span>
-                                                </td>
-                                                <td>
-                                                    <a href="javascipt:void(0)">
-                                                        <i class="fa fa-venus-mars" aria-hidden="true"></i>
-                                                    </a>
-                                                    <b>20-35</b>
-                                                </td>
-                                                <td>
-                                                    <a href="javascipt:void(0)">
-                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                                    </a>
-                                                    <b>Hà Nội, TP. Hồ Chí minh</b>
-                                                </td>
-                                                <td>
-                                                    <button type="button" class="btn btn-primary btn-sm">Chọn</button>
-                                                </td>
-                                            </tr>
-                                        <?php } ?>
-
-                                    </tbody>
-                                </table>
-                                <!-- /.table -->
-                            </div>
-                            <!-- /.mail-box-messages -->
-                        </div>
-
-                        <!-- Paginate -->
-                        <?php include 'include/inc_paginate.php' ?>
-                        <!-- End paginate -->
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+        <?php include 'include/inc_modal_add_history_customer.php' ?>
         <!-- End Modal lich su them khach hang muc tieu-->
 
     </div>

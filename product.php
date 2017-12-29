@@ -6,7 +6,7 @@ $menuActive = 'product';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/css/product.css">
+    <link rel="stylesheet" href="./dist/scss/product.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -19,7 +19,7 @@ $menuActive = 'product';
         <section class="content-header">
             <h1 class="pull-left">Danh sách sản phẩm</h1>
             <button type="button" class="btn btn-warning pull-right"
-                    data-toggle="modal" data-target="#modal_add_product">
+                    data-toggle="modal" data-target="#modal-add-product">
                 <i class="fa fa-plus" aria-hidden="true"></i>
                 Thêm sản phẩm
             </button>
@@ -41,9 +41,9 @@ $menuActive = 'product';
                                 <table class="table table-hover table-striped table-bordered">
                                     <thead>
                                     <tr>
-                                        <th><input type="checkbox"></th>
+                                        <th><input type="checkbox" id="check-all-checkbox"></th>
                                         <th>Ảnh đại diện</th>
-                                        <th class="align-left">Thông tin sản phẩm</th>
+                                        <th>Thông tin sản phẩm</th>
                                         <th>Liên hệ thu thập</th>
                                         <th>Giá thành</th>
                                         <th>Thao tác</th>
@@ -70,28 +70,29 @@ $menuActive = 'product';
                                         <td>
                                             <div class="a_lcontent_param">
                                                 <div class="a_lcontent_param_child">
-                                                    <span class="title_statistical"><b>0</b></span>
-                                                    <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                                    <span class="title_statistical"><span>0</span></span>
+                                                    <a href=""><i class="fa fa-dollar font-awesome"></i></a>
                                                 </div>
                                             </div>
                                         </td>
                                         <td class="align-left">
                                             <div class="a_lcontent_param">
                                                 <div class="a_lcontent_param_child">
-                                                    <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                                    <a href=""><i class="fa fa-dollar font-awesome"></i></a>
                                                     <span class="title_statistical lbl-italic">Chưa có giá thành</span>
                                                 </div>
                                                 <div class="a_lcontent_param_child">
-                                                    <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
+                                                    <a href=""><i class="fa fa-th font-awesome"></i></a>
                                                     <span class="title_statistical lbl-italic">Chưa có nhà cung cấp</span>
                                                 </div>
                                             </div>
                                         </td>
                                         <td>
-                                            <a class="btn btn-primary btn-xs">
-                                                <i class="fa fa-edit"></i>
+                                            <button type="button" class="btn btn-primary btn-xs"
+                                                    data-toggle="modal" data-target="#modal-edit-product">
+                                                <i class="fa fa-edit" aria-hidden="true"></i>
                                                 Chỉnh sửa
-                                            </a>
+                                            </button>
                                             <a class="btn btn-danger btn-xs">
                                                 <i class="fa-trash fa icon-delete"></i>
                                                 Xóa
@@ -99,7 +100,7 @@ $menuActive = 'product';
                                         </td>
                                     </tr>
 
-                                    <?php for ($i = 0; $i < 10; $i++) { ?>
+                                    <?php for ($i = 0; $i < 5; $i++) { ?>
                                         <tr>
                                             <td>
                                                 <input type="checkbox">
@@ -119,28 +120,29 @@ $menuActive = 'product';
                                             <td>
                                                 <div class="a_lcontent_param">
                                                     <div class="a_lcontent_param_child">
-                                                        <span class="title_statistical"><b>0</b></span>
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
+                                                        <span class="title_statistical">0</span>
+                                                        <a href=""><i class="fa fa-dollar font-awesome"></i></a>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td class="align-left">
                                                 <div class="a_lcontent_param">
                                                     <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg fa-dollar font-awesome"></i></a>
-                                                        <span class="title_statistical lbl-bold">200.000 VND</span>
+                                                        <a href=""><i class="fa fa-dollar font-awesome"></i></a>
+                                                        <span class="title_statistical">200.000 VND</span>
                                                     </div>
                                                     <div class="a_lcontent_param_child">
-                                                        <a href=""><i class="fa fa-lg  fa-th font-awesome"></i></a>
-                                                        <span class="title_statistical lbl-bold">honda</span>
+                                                        <a href=""><i class="fa  fa-th font-awesome"></i></a>
+                                                        <span class="title_statistical">honda</span>
                                                     </div>
                                                 </div>
                                             </td>
                                             <td>
-                                                <a class="btn btn-primary btn-xs">
-                                                    <i class="fa fa-edit"></i>
+                                                <button type="button" class="btn btn-primary btn-xs"
+                                                        data-toggle="modal" data-target="#modal-edit-product">
+                                                    <i class="fa fa-edit" aria-hidden="true"></i>
                                                     Chỉnh sửa
-                                                </a>
+                                                </button>
                                                 <a class="btn btn-danger btn-xs">
                                                     <i class="fa-trash fa icon-delete"></i>
                                                     Xóa
@@ -175,6 +177,10 @@ $menuActive = 'product';
     <!-- Modal add product -->
     <?php include 'include/inc_modal_add_product.php' ?>
     <!--End modal add product-->
+
+    <!-- Modal edit product -->
+    <?php include 'include/inc_modal_edit_product.php' ?>
+    <!--End modal edit product-->
 
 
 

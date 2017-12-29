@@ -5,7 +5,7 @@ $menuActive = 'channel';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/css/channel.css">
+    <link rel="stylesheet" href="./dist/scss/channel.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -73,7 +73,7 @@ $menuActive = 'channel';
                                 <table class="table table-hover table-striped dataTable table-bordered">
                                     <thead>
                                         <tr>
-                                            <th><input type="checkbox"></th>
+                                            <th><input type="checkbox" id="check-all-checkbox"></th>
                                             <th>Ảnh đại diện</th>
                                             <th>Tên landing</th>
                                             <th>Mẫu quảng cáo</th>
@@ -230,74 +230,10 @@ $menuActive = 'channel';
     </div>
     <!-- /.content-wrapper -->
 
-    <!-- Modal -->
-    <div class="modal fade" id="modal-add-channel" role="dialog">
-        <div class="modal-dialog">
+    <!-- Modal add channel-->
+    <?php include 'include/inc_modal_add_channel.php' ?>
+    <!-- End modal add channel-->
 
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title"><b>Thêm Kênh quảng cáo mới</b></h4>
-                </div>
-                <div class="row modal-body">
-                    <div class="col-md-4">
-                        <div class="lbl-logo-channel"><b>Logo Kênh</b></div>
-                        <div class="preview-image">
-                            <a href="">
-                                <i class="material-icons icon-backup">backup</i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td class="pull-right">
-                                        <label for="">Tên Kênh <span class="color-red">*</span> :</label>
-                                    </td>
-                                    <td>
-                                        <input type="text" class="form-control" name="channel_name">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="pull-right"><label for="">Loại Kênh :</label></td>
-                                    <td>
-                                        <label class="radio-inline"><input type="radio" name="optradio">Offline</label>
-                                        <label class="radio-inline"><input type="radio" name="optradio" checked>Online</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="pull-right"><label for="">Mô tả :</label></td>
-                                    <td>
-                                        <input type="text" class="form-control" name="description">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="pull-right"><label for="">Đường dẫn :</label></td>
-                                    <td>
-                                        <input type="text" class="form-control" name="path">
-                                    </td>
-                                </tr>
-                            </tbody>
-
-                        </table>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">
-                        <i class="fa fa-remove" aria-hidden="true"></i>
-                        Hủy
-                    </button>
-                    <button type="button" class="btn btn-success" data-dismiss="modal">
-                        <i class="fa fa-check" aria-hidden="true"></i>
-                        Lưu
-                    </button>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 </div>
 <!-- ./wrapper -->

@@ -6,7 +6,7 @@ $menuActive = 'landingPage';
 <html>
 <head>
     <?php include 'include/inc_head.php' ?>
-    <link rel="stylesheet" href="./dist/css/landing_page.css">
+    <link rel="stylesheet" href="./dist/scss/landing_page.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -39,7 +39,7 @@ $menuActive = 'landingPage';
                                 <table class="table table-hover table-striped table-bordered">
                                     <thead>
                                         <tr>
-                                            <th><input type="checkbox"></th>
+                                            <th><input type="checkbox" id="check-all-checkbox"></th>
                                             <th>Trạng thái</th>
                                             <th>Tên landing</th>
                                             <th>Chiến dịch tham gia</th>
