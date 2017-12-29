@@ -73,7 +73,18 @@ $menuActive = 'landingPage';
                                             </td>
                                             <td>
                                                 <div class="content-campaign-statistics">
-                                                    <span>Chưa tham gia chiến dịch</span>
+                                                    <div class="top">
+                                                        <a href="javascript:void(0)">
+                                                            1
+                                                            <i class="fa fa-bullhorn color-back" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="title-load-more">
+                                                        <a href="">
+                                                            Xem thêm
+                                                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </td>
                                             <td>

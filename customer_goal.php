@@ -67,19 +67,19 @@ $menuActive = 'customerGoal';
                                             </td>
                                             <td>
                                                 <a href="javascipt:void(0)">
-                                                    <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                                    <i class="fa fa-bullhorn color-back" aria-hidden="true"></i>
                                                 </a>
                                                 <span class="bold">Đã tham gia một chiến dịch</span>
                                             </td>
                                             <td>
                                                 <a href="javascipt:void(0)">
-                                                    <i class="fa fa-venus-mars" aria-hidden="true"></i>
+                                                    <i class="fa fa-venus-mars color-back" aria-hidden="true"></i>
                                                 </a>
                                                 <b>20-35</b>
                                             </td>
                                             <td>
                                                 <a href="javascipt:void(0)">
-                                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                    <i class="fa fa-map-marker color-back" aria-hidden="true"></i>
                                                 </a>
                                                 <b>Hà Nội, TP. Hồ Chí minh</b>
                                             </td>
@@ -110,19 +110,19 @@ $menuActive = 'customerGoal';
                                                 </td>
                                                 <td>
                                                     <a href="javascipt:void(0)">
-                                                        <i class="fa fa-bullhorn" aria-hidden="true"></i>
+                                                        <i class="fa fa-bullhorn color-back" aria-hidden="true"></i>
                                                     </a>
                                                     <span class="not-bold">Chưa tham gia Chiến dịch</span>
                                                 </td>
                                                 <td>
                                                     <a href="javascipt:void(0)">
-                                                        <i class="fa fa-venus-mars" aria-hidden="true"></i>
+                                                        <i class="fa fa-venus-mars color-back" aria-hidden="true"></i>
                                                     </a>
                                                     <b>20-35</b>
                                                 </td>
                                                 <td>
                                                     <a href="javascipt:void(0)">
-                                                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                        <i class="fa fa-map-marker color-back" aria-hidden="true"></i>
                                                     </a>
                                                     <b>Hà Nội, TP. Hồ Chí minh</b>
                                                 </td>

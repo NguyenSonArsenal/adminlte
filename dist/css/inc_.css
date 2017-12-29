@@ -18,6 +18,20 @@
   left: -23px;
 }
 
+.box-header .search-filter {
+  display: inline-flex;
+}
+.box-header .search-filter .advance_filter {
+  position: relative;
+  top: 6px;
+}
+.box-header .search-filter .advance_filter > a:hover {
+  color: #f66f00;
+}
+.box-header .search-filter .marginRight {
+  margin-right: 15px;
+}
+
 /*Modal add product*/
 .wrapper #modal-add-product .modal-dialog .modal-content {
   background-color: #fafafa;
@@ -111,7 +125,6 @@
 /*Modal add customer goal*/
 .wrapper #modal-add-customer-goal .modal-dialog .modal-content {
   background-color: #fafafa;
-  padding: 15px 50px;
 }
 .wrapper #modal-add-customer-goal .modal-dialog .modal-content .modal-body {
   position: relative;
@@ -135,6 +148,11 @@
 .wrapper #modal-add-customer-goal .modal-dialog .modal-content .modal-body .form-group input:focus {
   border-bottom: 1px solid #3c8dbc;
   box-shadow: none;
+}
+.wrapper #modal-add-customer-goal .modal-dialog .modal-content .modal-body .form-group .radio-inline input[type=radio] {
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
 }
 .wrapper #modal-add-customer-goal .modal-dialog .modal-content .modal-body .form-group .slider {
   position: relative;
@@ -173,6 +191,10 @@
 }
 
 .noUi-handle.noUi-handle-lower {
+  outline: none;
+}
+
+.noUi-handle.noUi-handle-upper {
   outline: none;
 }
 
@@ -269,6 +291,69 @@
   position: relative;
   top: 0px;
   margin-right: 25px;
+}
+
+/*Modal edit campain */
+.wrapper #modal-edit-campain .modal-dialog .modal-content {
+  background-color: #fafafa;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body {
+  position: relative;
+  bottom: 11px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group {
+  line-height: 30px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group > label {
+  margin-bottom: 0;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group .lbl-fix {
+  position: relative;
+  top: 9px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group > input {
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  background-color: #fafafa;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group input:focus {
+  border-bottom: 1px solid #3c8dbc;
+  box-shadow: none;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group .radio-inline input[type=radio] {
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group .slider {
+  position: relative;
+  top: 10px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-group .slider .noUi-horizontal {
+  padding: 1px 12px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .form-margin {
+  margin-bottom: 25px;
+}
+.wrapper #modal-edit-campain .modal-dialog .modal-content .modal-body .div_select2 {
+  line-height: 20px !important;
+}
+
+/*Modal detail campain */
+.wrapper #modal-detail-campain .modal-dialog .modal-content .modal-body > table > tbody > tr {
+  margin: 10px 0;
+  display: block;
+}
+.wrapper #modal-detail-campain .modal-dialog .modal-content .modal-body > table > tbody > tr .lbl {
+  text-align: right;
+  padding-right: 10px;
+  width: 200px;
+}
+.wrapper #modal-detail-campain .modal-dialog .modal-content .modal-body > table > tbody > tr .info {
+  width: 300px;
+}
+.wrapper #modal-detail-campain .modal-dialog .modal-content .modal-body > table > tbody > tr .info > label {
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=inc_.css.map */

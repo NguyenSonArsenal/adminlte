@@ -30,7 +30,7 @@
                             <div class="form-group">
                                 <label>Mã sản phẩm:</label>
                                 <input type="text" class="form-control" id="product_id"
-                                        value="Mã sản phẩm" >
+                                       value="Mã sản phẩm" >
                             </div>
                             <div class="form-group">
                                 <label>Nhà cung cấp:</label>

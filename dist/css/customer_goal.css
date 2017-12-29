@@ -37,5 +37,8 @@
 .wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td .bold {
   font-weight: bold;
 }
+.wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > tbody > tr > td > a .color-back {
+  color: #333;
+}
 
 /*# sourceMappingURL=customer_goal.css.map */

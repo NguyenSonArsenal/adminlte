@@ -9,5 +9,18 @@
   margin-bottom: 10px;
   padding-left: 0;
 }
+.wrapper .content-wrapper .content .box .form-horizontal .box-body .form-group .col-md-9 .fix-col > span {
+  display: inline-block;
+  margin-right: 15px;
+  position: relative;
+  top: 5px;
+}
+.wrapper .content-wrapper .content .box .form-horizontal .box-body .form-group .col-md-9 .fix-col .col-md-4 {
+  padding-right: 0;
+  margin-right: 3px;
+}
+.wrapper .content-wrapper .content .box .form-horizontal .box-body .form-group .col-md-9 .fix-col .paddingLeft0 {
+  padding-left: 0;
+}
 
 /*# sourceMappingURL=campaign_construction.css.map */

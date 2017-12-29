@@ -29,12 +29,16 @@
 .wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics {
   text-align: center;
 }
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics > a {
-  font-size: 10px;
-  text-decoration: none;
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics .top > a {
+  font-size: 15px;
+  color: #333;
 }
-.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics > a:hover {
-  text-decoration: underline;
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics .top > a > i {
+  padding-left: 3px;
+}
+.wrapper .content-wrapper .content .row .col-md-12 .box .box-body .table-responsive .table > tbody > tr > td .content-campaign-statistics .title-load-more > a {
+  font-size: 9px;
+  color: #33b5e5;
 }
 
 /*Modal*/

@@ -66,9 +66,9 @@
                         '</div>'+
                         '<div class="col-md-8 fix-col">'+
                             '<div class="col-md-4">'+
-                                '<input type="text" class="form-control pull-left">'+
+                                '<input type="text" class="form-control pull-left" placeholder="100.000"> '+
                             '</div>'+
-                        '<div class="col-md-4">'+
+                        '<div class="col-md-3 paddingLeft0">'+
                             '<select class="form-control pull-left">'+
                                 '<option>VND</option>'+
                                 '<option>USD</option>'+

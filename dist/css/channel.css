@@ -5,13 +5,18 @@
   text-decoration: underline;
 }
 
-.wrapper .content .row .col-md-12 .box .box-header .filter .advance_filter {
+.wrapper .content .row .col-md-12 .box .box-header .search-filter {
+  display: inline-flex;
+}
+.wrapper .content .row .col-md-12 .box .box-header .search-filter .advance_filter {
   position: relative;
   top: 6px;
-  left: 24px;
 }
-.wrapper .content .row .col-md-12 .box .box-header .filter .advance_filter > a:hover {
+.wrapper .content .row .col-md-12 .box .box-header .search-filter .advance_filter > a:hover {
   color: #f66f00;
+}
+.wrapper .content .row .col-md-12 .box .box-header .search-filter .marginRight {
+  margin-right: 15px;
 }
 .wrapper .content .row .col-md-12 .box .box-body .table-responsive .dataTable > thead > tr > th {
   text-align: center;

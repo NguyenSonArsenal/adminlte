@@ -9,6 +9,12 @@
                     <span>Trang chủ</span>
                 </a>
             </li>
+            <li class="<?= isset($menuActive) && $menuActive=='trangchu' ? 'menu-active' : ''?>">
+                <a href="/">
+                    <i class="fa fa-cogs"></i>
+                    <span>Cấu hình domain hiển thị</span>
+                </a>
+            </li>
             <li class="<?= isset($menuActive) && $menuActive=='campaignConstruction' ? 'menu-active' : ''?>">
                 <a href="./campaign_construction.php">
                     <i class="fa fa-external-link"></i>

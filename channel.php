@@ -31,37 +31,35 @@ $menuActive = 'channel';
 
                         <!-- Search and Filter -->
                         <div class="box-header with-border">
-                            <div class="row filter">
-                                <div class="col-md-5 searchbox">
-                                    <form action="" class="form-inline">
-                                        <input type="text" class="form-control" placeholder="Search">
-                                        <div class="form-group">
-                                            <button class="btn btn-primary">
-                                                <i class="fa fa-search-minus" aria-hidden="true"></i>
-                                                Search
-                                            </button>
-                                        </div>
-                                    </form>
+                            <div class="search-filter">
+                                <div class="searchbox marginRight">
+                                     <input type="text" class="form-control" placeholder="Search">
                                 </div>
-                                <div class="sort col-md-3">
+                                <div class="sort marginRight">
                                     <select class="form-control" id="sel1">
                                         <option>Sắp xếp theo mới nhất</option>
                                         <option>Sắp xếp theo cũ nhất</option>
                                         <option>Sắp xếp theo Tỉ lệ chuyển đổi</option>
                                     </select>
                                 </div>
-                                <div class="advance_filter col-md-2">
+                                <div class="advance_filter marginRight">
                                     <a href="">
                                         <i class="fa  fa-bar-chart" aria-hidden="true"></i>
                                         Lọc nâng cao
                                     </a>
                                 </div>
-                                <div class="status col-md-2">
+                                <div class="status marginRight">
                                     <select class="form-control" id="sel1">
                                         <option>Tất cả</option>
                                         <option>Online</option>
                                         <option>Offline</option>
                                     </select>
+                                </div>
+                                <div class="search marginRight">
+                                    <button class="btn btn-primary">
+                                        <i class="fa fa-search-minus" aria-hidden="true"></i>
+                                        Search
+                                    </button>
                                 </div>
                             </div>
                         </div>

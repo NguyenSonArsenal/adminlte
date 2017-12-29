@@ -96,22 +96,18 @@ $menuActive = 'campaignConstruction';
                                     <label for="" class="col-md-3 control-label">Ngân sách dự kiến :</label>
                                     <div class="col-md-9">
                                         <div class="col-md-4 fix-col">
-                                            <div class="radio pull-left" style="margin-right: 10px">
-                                                <label>
-                                                    <input type="radio" name="" id="optionsRadios1" checked value="option1"> Toàn chiến dịch
-                                                </label>
-                                            </div>
-                                            <div class="radio pull-left">
-                                                <label>
-                                                    <input type="radio" name="" id="optionsRadios2" value="option2"> Theo ngày
-                                                </label>
-                                            </div>
+                                            <span>
+                                                <input type="radio" name="day" checked value="option1"> Toàn chiến dịch
+                                            </span>
+                                            <span>
+                                                <input type="radio" name="day" value="option2"> Theo ngày
+                                            </span>
                                         </div>
                                         <div class="col-md-8 fix-col">
                                             <div class="col-md-4">
-                                                <input type="text" class="form-control pull-left" placeholder="100.000" style="width:130px;text-align:right;margin-right: 10px">
+                                                <input type="text" class="form-control pull-left" placeholder="100.000">
                                             </div>
-                                            <div class="col-md-4">
+                                            <div class="col-md-3 paddingLeft0">
                                                 <select class="form-control pull-left">
                                                     <option>VND</option>
                                                     <option>USD</option>

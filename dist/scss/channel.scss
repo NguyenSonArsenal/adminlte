@@ -11,16 +11,19 @@
             .col-md-12 {
                 .box {
                     .box-header {
-                        .filter {
+                        .search-filter {
+                            display: inline-flex;
                             .advance_filter {
                                 position: relative;
                                 top: 6px;
-                                left: 24px;
                                 > a {
                                     &:hover {
                                         color: #f66f00;
                                     }
                                 }
+                            }
+                            .marginRight {
+                                margin-right: 15px;
                             }
                         }
                     }
