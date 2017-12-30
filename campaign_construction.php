@@ -181,13 +181,13 @@ $menuActive = 'campaignConstruction';
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Mã nhúng css:</label>
                                     <div class="col-md-8">
-                                        <input type="text" class="form-control" placeholder="Mã nhúng css">
+                                        <textarea class="form-control" rows="5" placeholder="Mã nhúng css"></textarea>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Mã nhúng javascript:</label>
                                     <div class="col-md-8">
-                                        <input type="text" class="form-control" placeholder="Mã nhúng javascript">
+                                        <textarea class="form-control" rows="5" placeholder="Mã nhúng javascript"></textarea>
                                     </div>
                                 </div>
                             </div>

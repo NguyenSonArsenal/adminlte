@@ -33,7 +33,7 @@ $menuActive = 'channel';
                         <div class="box-header with-border">
                             <div class="search-filter">
                                 <div class="searchbox marginRight">
-                                     <input type="text" class="form-control" placeholder="Search">
+                                     <input type="text" class="form-control" placeholder="Tìm kiếm">
                                 </div>
                                 <div class="sort marginRight">
                                     <select class="form-control" id="sel1">
@@ -52,7 +52,7 @@ $menuActive = 'channel';
                                 <div class="search marginRight">
                                     <button class="btn btn-primary">
                                         <i class="fa fa-search-minus" aria-hidden="true"></i>
-                                        Search
+                                        Tìm kiếm
                                     </button>
                                 </div>
                             </div>
