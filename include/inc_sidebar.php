@@ -9,8 +9,8 @@
                     <span>Trang chủ</span>
                 </a>
             </li>
-            <li class="<?= isset($menuActive) && $menuActive=='trangchu' ? 'menu-active' : ''?>">
-                <a href="/">
+            <li class="<?= isset($menuActive) && $menuActive=='configDomain' ? 'menu-active' : ''?>">
+                <a href="./configdomain.php">
                     <i class="fa fa-cogs"></i>
                     <span>Cấu hình domain hiển thị</span>
                 </a>

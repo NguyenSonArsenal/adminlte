@@ -45,6 +45,7 @@
 <script src="plugins/iCheck/icheck.min.js"></script>
 
 <script src="plugins/iCheck/icheck.min.js"></script>
+<script src="dist/js/configdomain.js"></script>
 
 <script>
     $(function () {
@@ -119,37 +120,10 @@
 
     });
 
-    // product page modal
-    // preview image before upload product modal
-    $(function () {
-        $('#btn-to-up-file').click(function () {
-            console.log('clicked');
-            function readURL(input) {
-
-                console.log(input.files[0]);
-
-                if (input.files && input.files[0]) {
-                    var reader = new FileReader();
-
-                    reader.onload = function(e) {
-                        $('#blah').attr('src', e.target.result);
-                    };
-
-                    reader.readAsDataURL(input.files[0]);
-                }
-            }
-
-            $(".preview-image").change(function() {
-                readURL(this);
-            });
-        })
-    })
-
 
     // checkall input checkbox
     $(function () {
         $('#check-all-checkbox').click(function () {
-            console.log(123);
             if(this.checked) {
                 // Iterate each checkbox
                 $(':checkbox').each(function() {
@@ -161,9 +135,12 @@
                     this.checked = false;
                 });
             }
-        })
-    })
+        });
 
+
+
+
+    });
 
 
 </script>
