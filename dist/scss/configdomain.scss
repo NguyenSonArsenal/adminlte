@@ -14,11 +14,18 @@
                                     padding-left: 0;
                                     .input-group {
                                         width: 104%;
+                                        //display: inline-flex !important;
+                                    }
+                                    #input-add-domain-default{
+                                        //display: none;
                                     }
                                     #input-add-domain {
                                          display: none;
                                         .input-group-addon {
                                             background: #ccc;
+                                            width: 10%;
+                                            display: inline;
+                                            height: 34px;
                                         }
                                         .btn-process-domain {
                                             display: inline-block;

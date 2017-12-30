@@ -138,6 +138,23 @@
         });
 
 
+        // page config domain
+        $('#btn-process-add-domain').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            var $this = $(this);
+            $this.hide();
+            $('#input-add-domain-default').hide();
+            $('#input-add-domain').css({"display": "inline-flex", "width": "112%"});
+        });
+
+        $('#remove-add-domain').click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            $('#btn-process-add-domain').show();
+            $('#input-add-domain-default').show();
+            $('#input-add-domain').hide();
+        })
 
 
     });

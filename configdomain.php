@@ -34,13 +34,11 @@ $menuActive = 'configDomain';
                                     <div class="col-md-8">
                                         <div class="col-md-11">
 
-                                            <!--
                                             <div class="input-group" id="input-add-domain-default">
                                                 <select name="" id="" class="form-control">
                                                     <option value="0">Chọn tên domain</option>
                                                 </select>
                                             </div>
-                                            -->
 
                                             <div class="input-group" id="input-add-domain">
                                                 <span class="input-group-addon">http://</span>
@@ -48,7 +46,7 @@ $menuActive = 'configDomain';
                                                        placeholder="Địa chỉ Website">
                                                 <span class="btn-process-domain">
                                                     <i class="fa fa-check-circle" aria-hidden="true"></i>
-                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                    <i class="fa fa-times-circle" id="remove-add-domain" aria-hidden="true"></i>
                                                     <i class="fa fa-trash" aria-hidden="true"></i>
                                                 </span>
                                             </div>
