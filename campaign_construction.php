@@ -27,8 +27,16 @@ $menuActive = 'campaignConstruction';
                     <div class="box box-primary">
                         <!-- /.box-header -->
                         <!-- form start -->
-                        <form class="form-horizontal">
-                            <div class="box-body">
+
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#info-basic"> Thông tin cơ bản </a></li>
+                            <li><a data-toggle="tab" href="#manage-embedded-code">Quản lý mã nhúng</a></li>
+                            <li><a data-toggle="tab" href="#seo-google">Seo google</a></li>
+                        </ul>
+
+
+                        <form class="form-horizontal tab-content">
+                            <div class="box-body tab-pane fade in active" id="info-basic">
                                 <div class="form-group">
                                     <label for="" class="col-md-3 control-label">Tên chiến dịch:</label>
                                     <div class="col-md-8">
@@ -133,6 +141,56 @@ $menuActive = 'campaignConstruction';
                                 </div>
                             </div>
                             <!-- /.box-body -->
+
+                            <div class="tab-pane fade" id="manage-embedded-code">
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">Meta tiêu đề:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="Tiêu đề chiến dịch, tối đa 90 ký tự ">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">Meta Mô tả:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="Mô tả chiến dịch, tối đa 200 ký tự ">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">Ảnh chia sẻ lên mạng xã hội:</label>
+                                    <div class="col-md-8">
+                                        <button class="btn btn-primary btn-file" id="btn-to-up-file">
+                                            Chọn từ thư viện <input type="file">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="seo-google">
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">ID Google Analytic:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="ID Google Analytic">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">ID Facebook Pixel:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="ID Facebook Pixel">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">Mã nhúng css:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="Mã nhúng css">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="" class="col-md-3 control-label">Mã nhúng javascript:</label>
+                                    <div class="col-md-8">
+                                        <input type="text" class="form-control" placeholder="Mã nhúng javascript">
+                                    </div>
+                                </div>
+                            </div>
 
                             <!-- footer modal -->
                             <div class="box-footer">

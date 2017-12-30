@@ -45,7 +45,6 @@
 <script src="plugins/iCheck/icheck.min.js"></script>
 
 <script src="plugins/iCheck/icheck.min.js"></script>
-<script src="dist/js/configdomain.js"></script>
 
 <script>
     $(function () {

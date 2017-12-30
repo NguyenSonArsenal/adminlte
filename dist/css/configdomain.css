@@ -13,8 +13,9 @@
 .wrapper .content-wrapper .content .box .form-horizontal .box-body .form-group .col-md-8 .col-md-11 #input-add-domain .input-group-addon {
   background: #ccc;
   width: 10%;
-  display: inline;
-  height: 34px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .wrapper .content-wrapper .content .box .form-horizontal .box-body .form-group .col-md-8 .col-md-11 #input-add-domain .btn-process-domain {
   display: inline-block;

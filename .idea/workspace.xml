@@ -3,11 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4dab24c3-85a3-4761-b228-5b0370af133a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configdomain.php" afterPath="$PROJECT_DIR$/configdomain.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/campaign_construction.php" afterPath="$PROJECT_DIR$/campaign_construction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/channel.php" afterPath="$PROJECT_DIR$/channel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/campaign_construction.css" afterPath="$PROJECT_DIR$/dist/css/campaign_construction.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/campaign_construction.css.map" afterPath="$PROJECT_DIR$/dist/css/campaign_construction.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/configdomain.css" afterPath="$PROJECT_DIR$/dist/css/configdomain.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/configdomain.css.map" afterPath="$PROJECT_DIR$/dist/css/configdomain.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/configdomain.js" afterPath="$PROJECT_DIR$/dist/js/configdomain.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/landing_page.css" afterPath="$PROJECT_DIR$/dist/css/landing_page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/landing_page.css.map" afterPath="$PROJECT_DIR$/dist/css/landing_page.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/campaign_construction.scss" afterPath="$PROJECT_DIR$/dist/scss/campaign_construction.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/configdomain.scss" afterPath="$PROJECT_DIR$/dist/scss/configdomain.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/scss/landing_page.scss" afterPath="$PROJECT_DIR$/dist/scss/landing_page.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/inc_js.php" afterPath="$PROJECT_DIR$/include/inc_js.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,41 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="configdomain.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="configdomain.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/scss/configdomain.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configdomain.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/configdomain.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="48" column="86" lean-forward="true" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="103" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inc_js.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/inc_js.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="156" column="10" lean-forward="false" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="configdomain.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/js/configdomain.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -87,10 +63,8 @@
         <option value="$PROJECT_DIR$/include/inc_modal_add_history_customer.php" />
         <option value="$PROJECT_DIR$/dist/scss/customer_goal.scss" />
         <option value="$PROJECT_DIR$/customer_goal.php" />
-        <option value="$PROJECT_DIR$/dist/scss/landing_page.scss" />
         <option value="$PROJECT_DIR$/landing_page.php" />
         <option value="$PROJECT_DIR$/include/inc_paginate.php" />
-        <option value="$PROJECT_DIR$/channel.php" />
         <option value="$PROJECT_DIR$/dist/scss/channel.scss" />
         <option value="$PROJECT_DIR$/include/inc_search_filter.php" />
         <option value="$PROJECT_DIR$/dist/scss/campaign.scss" />
@@ -98,16 +72,18 @@
         <option value="$PROJECT_DIR$/dist/scss/inc_.scss" />
         <option value="$PROJECT_DIR$/include/inc_modal_detail_campain.php" />
         <option value="$PROJECT_DIR$/include/inc_modal_edit_campain.php" />
-        <option value="$PROJECT_DIR$/campaign_construction.php" />
-        <option value="$PROJECT_DIR$/dist/scss/campaign_construction.scss" />
         <option value="$PROJECT_DIR$/campaign.php" />
         <option value="$PROJECT_DIR$/config_construction.php" />
         <option value="$PROJECT_DIR$/include/inc_sidebar.php" />
         <option value="$PROJECT_DIR$/dist/js/configdomain.php" />
-        <option value="$PROJECT_DIR$/dist/scss/configdomain.scss" />
         <option value="$PROJECT_DIR$/configdomain.php" />
         <option value="$PROJECT_DIR$/dist/js/configdomain.js" />
         <option value="$PROJECT_DIR$/include/inc_js.php" />
+        <option value="$PROJECT_DIR$/channel.php" />
+        <option value="$PROJECT_DIR$/campaign_construction.php" />
+        <option value="$PROJECT_DIR$/dist/scss/campaign_construction.scss" />
+        <option value="$PROJECT_DIR$/dist/scss/landing_page.scss" />
+        <option value="$PROJECT_DIR$/dist/scss/configdomain.scss" />
       </list>
     </option>
   </component>
@@ -152,20 +128,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="adminlte" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,13 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scss/landing_page.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="61" column="58" lean-forward="false" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/include/inc_paginate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -457,14 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/channel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="21" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -502,26 +449,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/campaign_construction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="97" column="61" lean-forward="false" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/campaign.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="110" column="46" lean-forward="true" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scss/campaign_construction.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -541,22 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/scss/configdomain.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="25" column="53" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/inc_js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="156" column="10" lean-forward="false" selection-start-line="156" selection-start-column="10" selection-end-line="156" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/configdomain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -565,10 +481,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/inc_js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/channel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scss/campaign_construction.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scss/landing_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="45" column="69" lean-forward="false" selection-start-line="45" selection-start-column="69" selection-end-line="45" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/configdomain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="48" column="86" lean-forward="true" selection-start-line="48" selection-start-column="86" selection-end-line="48" selection-end-column="103" />
+        <state relative-caret-position="553">
+          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="78" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/campaign_construction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="167" column="69" lean-forward="false" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="69" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/scss/configdomain.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
           <folding />
         </state>
       </provider>

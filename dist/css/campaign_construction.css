@@ -22,5 +22,8 @@
 .wrapper .content-wrapper .content .box .form-horizontal .box-body .form-group .col-md-9 .fix-col .paddingLeft0 {
   padding-left: 0;
 }
+.wrapper .content-wrapper .content .box .form-horizontal #manage-embedded-code, .wrapper .content-wrapper .content .box .form-horizontal #seo-google {
+  padding-top: 10px;
+}
 
 /*# sourceMappingURL=campaign_construction.css.map */

@@ -42,12 +42,6 @@ $menuActive = 'channel';
                                         <option>Sắp xếp theo Tỉ lệ chuyển đổi</option>
                                     </select>
                                 </div>
-                                <div class="advance_filter marginRight">
-                                    <a href="">
-                                        <i class="fa  fa-bar-chart" aria-hidden="true"></i>
-                                        Lọc nâng cao
-                                    </a>
-                                </div>
                                 <div class="status marginRight">
                                     <select class="form-control" id="sel1">
                                         <option>Tất cả</option>
