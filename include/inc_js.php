@@ -1,50 +1,16 @@
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
-<script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
-
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-<script src="bower_components/raphael/raphael.min.js"></script>
-
-<script src="bower_components/morris.js/morris.min.js"></script>
-
-<script src="bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
-
-<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-
-<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
-
-<script src="bower_components/jquery-knob/dist/jquery.knob.min.js"></script>
-
-<script src="bower_components/moment/min/moment.min.js"></script>
-
-<script src="bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
 
 <script src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
 
-<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
-
-<script src="bower_components/fastclick/lib/fastclick.js"></script>
-
-<!-- boostrap toggle -->
 <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
-<!-- noUiSlider -->
 <script src="bower_components/noUiSlider/nouislider.min.js"></script>
 
-<!-- Select2 -->
 <script src="bower_components/select2/dist/js/select2.full.min.js"></script>
 
-<!-- Dropzone -->
-<script src="bower_components/dropzone/dropzone.js"></script>
-
-
-
 <script src="dist/js/adminlte.min.js"></script>
-<script src="dist/js/demo.js"></script>
-<script src="plugins/iCheck/icheck.min.js"></script>
-
-<script src="plugins/iCheck/icheck.min.js"></script>
 
 <script>
     $(function () {
@@ -91,7 +57,6 @@
 
     // customer_goal page modal
     $(document).ready(function() {
-
         // slider-age
         var limitSlider = document.getElementById('slider-age');
 
